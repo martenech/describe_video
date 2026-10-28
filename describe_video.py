@@ -836,6 +836,12 @@ def cmd_perceive(a) -> None:
         recs: list[dict] = []
         for attempt in range(2):
             recs = _api_json(work, f"perception_{a.grids}", a.model, system, content, 16000, key="records").get("records") or []
+            for z in recs:
+                # a time outside its scene is a misread of the burned-in MM:SS (scene at 3:43 written as 3.0) – use the scene's
+                if isinstance(z.get("scene"), int) and 1 <= z["scene"] <= len(m["scenes"]):
+                    s = m["scenes"][z["scene"] - 1]
+                    if not s["start"] - 1 <= (z.get("start") or 0) <= s["end"] + 1:
+                        z["start"], z["end"] = s["start"], s["end"]
             # overview: every scene of the grid must have a record; targeted grid: at least one record
             missing = ([x for x in sc if not any(z.get("scene") == x["scene"] or x["start"] - 0.3 <= (z.get("start") or -1) < x["end"]
                                                  for z in recs)] if a.grids == "overview" else ([] if recs else sc))
@@ -1093,18 +1099,24 @@ def _image(p: Path) -> dict:
             "source": {"type": "base64", "media_type": "image/jpeg", "data": base64.b64encode(p.read_bytes()).decode()}}
 
 
-def _json(text: str) -> dict:
-    """JSON from a model answer (also inside a ```json``` fence or with text before/after it); returns {} on bad JSON."""
+def _json(text: str, key: str | None = None) -> dict:
+    """JSON from a model answer (also inside a ```json``` fence or with text before/after it); returns {} on bad JSON.
+    With `key`, takes the last top-level object that has it (a model sometimes sends a draft, then "correcting that" a second one)."""
     text = re.sub(r"```(?:json)?", "", text or "")
+    # numbers with a leading zero ("start": 03.0) – the model copies them from the burned-in MM:SS time; invalid JSON
+    text = re.sub(r'("\s*:\s*-?)0+(\d)', r"\1\2", text)
     dec = json.JSONDecoder()
-    for m in re.finditer(r"\{", text):
+    found, pos = [], 0
+    while (i := text.find("{", pos)) >= 0:
         try:
-            o, _ = dec.raw_decode(text, m.start())
+            o, pos = dec.raw_decode(text, i)  # continue after the whole object, not inside it
         except json.JSONDecodeError:
+            pos = i + 1
             continue
         if isinstance(o, dict):
-            return o
-    return {}
+            found.append(o)
+    with_key = [o for o in found if key is None or key in o]
+    return (with_key[-1] if key and with_key else (with_key or found or [{}])[0])
 
 
 RESPONSES: dict[str, int] = {}  # step → number of saved answers (file numbering)
@@ -1123,7 +1135,7 @@ def _api_json(work: Path, step: str, model: str, system: str, content: list, max
         RESPONSES[step] = RESPONSES.get(step, 0) + 1
         file = work / "responses" / f"{step}_{RESPONSES[step]:03d}.txt"
         file.write_text(text or "")
-        o = _json(text)
+        o = _json(text, key)
         if o and (key is None or key in o):
             return o
         print(f"! {step}: the model did not return valid JSON{f' with “{key}”' if key else ''} ({file.name})"
