@@ -250,6 +250,6 @@ round 2 **5 / 7 / 2** – the fixes didn't help. Causes (fixed in the tool, a ne
 
 ## License
 
-Code and prompts: [MIT](LICENSE) – use, modify and share freely, just keep the copyright notice (credit the authors).
+Code and prompts: [MIT](LICENSE) – use, modify and share freely, just keep the copyright notice (credit the author, Martin Pohorelský).
 The example folders contain descriptions of Blender Studio films (CC BY 4.0, © Blender Foundation); videos, audio,
 frames and transcripts are not part of the repository (see `.gitignore`).
