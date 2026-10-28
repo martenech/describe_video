@@ -214,6 +214,28 @@ round 2 **5 / 7 / 2** – the fixes didn't help. Causes (fixed in the tool, a ne
 - **Credits:** 6 blocks (~45 s) reading names from the credits while the plot had no description; blocks with guesses ("maybe a robot").
   → `prompts/script.md` (credits = one block, no guesses), `check` reports guesses and pauses ≥ 12 s without description.
 
+### Second `auto` run after the fixes: `work_charge/` (28 Oct 2026)
+
+Same video and preparation (`--reuse-prep`), perception and everything else Sonnet, `--max-probes 8`:
+47 calls, API-equivalent ~4.01 USD.
+
+| review (critical / confusing / minor) | round 1 | round 2 (after fixes) |
+|---|---|---|
+| 1st auto run | 5 / 8 / 2 | 5 / 7 / 2 |
+| **2nd auto run** | 6 / 8 / 1 | **3** / 8 / 2 |
+| manual run B | 0 / 6 / 10 | 0 / 5 / 6 |
+
+- Every overview scene has a log record (before: 32 scenes missing). The climax (99–131 s) and the ending are described;
+  credits take one block.
+- The model still sometimes returns invalid JSON: numbers with a leading zero (`"start": 03.0`, copied from the burned-in
+  MM:SS) and a draft followed by "Wait — correcting that" and a second object. The retry saved most cases; the parser
+  now handles both (fixed after this run).
+- Round 2 now fixes critical findings (6 → 3; before 5 → 5), because the targeted looks go where the critical findings are.
+- Still worse than the manual run. All 3 remaining critical findings are in the first 50 s: the film opens with a
+  flash-forward to the fight, which the script doesn't mark, and characters are not linked (the rusty robot in the
+  intro = the small robot in the armchair; the "rusty hands" = the old man's prosthesis).
+- `check` flags the credits (3:16–4:02) as uncovered pauses – a false positive now that credits get one block.
+
 ### `example_korn/` – Korn, Falling Away From Me (official video, 4:59, protected work – internal test only)
 
 - As agreed, this example is no longer being fixed. Note: YouTube subtitles (vtt) actually existed, the tool didn't read them then, and Whisper missed the final chorus (3:54–4:31), so blocks 25–30 run over singing. The tool reads vtt now.
@@ -238,7 +260,7 @@ round 2 **5 / 7 / 2** – the fixes didn't help. Causes (fixed in the tool, a ne
 
 - Verify the layers with a fresh model in perception too (`auto` via a Pro subscription or an API key) and on more videos; the metric = review findings in round 1.
 - Interactive mode: questions about the video ("what is on the board at 3:20?") answered from the log, with one full-resolution frame when unclear.
-- Run `auto` on Charge again after the fixes (`--reuse-prep`) and compare with 5/8/2 and 0/6/10; then on more videos.
+- Story layer: detect time jumps (flash-forward, flashback) and characters that are the same person; then run on more videos.
 - Speaker diarization (pyannote) – solves "who is speaking" and Rex/Jay; the model on HuggingFace requires accepting terms and a token.
 - WhisperX (word timings) and, for music, singing separation (Demucs) before VAD – Whisper missed the whole chorus in Korn.
 - Detecting important sounds (screams, gunshots – don't talk over them), e.g. YAMNet.
