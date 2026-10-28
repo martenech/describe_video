@@ -563,7 +563,10 @@ def cmd_check(a) -> list[dict]:
                            "text": f"guess in the text for the listener: \"{guesses.search(b['text']).group(0)}\""})
     # pauses in which nothing is said for a long time – a hole in the plot (e.g. scene perception failed)
     speaking = sorted((b["start"], b["start"] + len(tts_text(b, sc)) / CHARS_PER_S) for b in blocks)
+    # closing credits get one block on purpose – what follows it is not an undescribed hole
+    credits = min((b["start"] for b in blocks if b.get("credits")), default=m["duration"])
     for g in m["speech_gaps"]:
+        g = {"start": g["start"], "end": min(g["end"], credits)}
         cursor = g["start"]
         for a0, a1 in speaking + [(g["end"], g["end"])]:
             a0 = min(max(a0, g["start"]), g["end"])
@@ -782,11 +785,21 @@ def perception_input_for_grid(work: Path, m: dict, g: dict, transcript: list[dic
     return "\n".join(r) + "\n"
 
 
+def fix_record_time(z: dict, scenes: list[dict]) -> dict:
+    """A time outside the record's scene is a misread of the burned-in MM:SS (scene at 3:43 written as 3.0) – use the scene's."""
+    if isinstance(z.get("scene"), int) and 1 <= z["scene"] <= len(scenes):
+        s = scenes[z["scene"] - 1]
+        if not s["start"] - 1 <= (z.get("start") or 0) <= s["end"] + 1:
+            z["start"], z["end"] = s["start"], s["end"]
+    return z
+
+
 def load_log(work: Path) -> list[dict]:
     p = work / "log.jsonl"
     if not p.exists():
         return []
-    recs = [json.loads(l) for l in p.read_text().splitlines() if l.strip()]
+    scenes = json.loads((work / "manifest.json").read_text())["scenes"]
+    recs = [fix_record_time(json.loads(l), scenes) for l in p.read_text().splitlines() if l.strip()]
     return sorted(recs, key=lambda z: (z.get("start", 0), z.get("source", "") != "overview"))
 
 
@@ -836,12 +849,7 @@ def cmd_perceive(a) -> None:
         recs: list[dict] = []
         for attempt in range(2):
             recs = _api_json(work, f"perception_{a.grids}", a.model, system, content, 16000, key="records").get("records") or []
-            for z in recs:
-                # a time outside its scene is a misread of the burned-in MM:SS (scene at 3:43 written as 3.0) – use the scene's
-                if isinstance(z.get("scene"), int) and 1 <= z["scene"] <= len(m["scenes"]):
-                    s = m["scenes"][z["scene"] - 1]
-                    if not s["start"] - 1 <= (z.get("start") or 0) <= s["end"] + 1:
-                        z["start"], z["end"] = s["start"], s["end"]
+            recs = [fix_record_time(z, m["scenes"]) for z in recs]
             # overview: every scene of the grid must have a record; targeted grid: at least one record
             missing = ([x for x in sc if not any(z.get("scene") == x["scene"] or x["start"] - 0.3 <= (z.get("start") or -1) < x["end"]
                                                  for z in recs)] if a.grids == "overview" else ([] if recs else sc))
@@ -901,8 +909,17 @@ def script_input(work: Path) -> str:
     m = json.loads((work / "manifest.json").read_text())
     info = m.get("info", {})
     story = (work / "story.json").read_text() if (work / "story.json").exists() else "(none)"
+    st = json.loads(story) if story != "(none)" else {}
+    # time jumps and identities are easy to overlook inside the story JSON – the script must act on them
+    jumps = "\n".join(f"- {fmt(j.get('start', 0))}–{fmt(j.get('end', 0))} {j.get('kind')} (matches {fmt(j.get('related_to') or 0)}): "
+                      f"{j.get('evidence')}" for j in st.get("time_jumps") or []) or "(none)"
+    same = "\n".join(f"- {' = '.join(e.get('labels') or [])} (confidence {e.get('confidence')}"
+                     f"{'' if (e.get('confidence') or 0) >= 0.7 else ' – only possible, do not state it'}): {e.get('evidence')}"
+                     for e in st.get("same_entity") or []) or "(none)"
     return (f"# Video: {info.get('title') or m['video']} | channel: {info.get('channel')} | duration {fmt(m['duration'])} | "
             f"license: {info.get('license') or '-'}\n\n# Characters\n{_characters_text(work)}\n\n"
+            f"# Time jumps (announce each one in the script, and the return)\n{jumps}\n\n"
+            f"# Same characters/objects under different labels (use one label, say the link once)\n{same}\n\n"
             f"# Story\n{story}\n\n# Perception LOG\n{log_text(load_log(work))}\n\n"
             f"# Speech with timestamps\n{transcript_in_range(json.loads((work / 'transcript.json').read_text()), 0, m['duration'])}\n\n"
             f"# Speech gaps (blocks go here)\n"

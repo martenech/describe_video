@@ -19,6 +19,13 @@ Plot
   b) if it is a turning point, put a block at the start of the event with "extended": true – the video freezes at that time
      (extended audio description), or
   c) exceptionally, over a less important line with "over_speech": true (a short sentence only).
+- Time jumps from the story ("time_jumps"): announce the jump at the start of the block in a few words
+  ("Later:", "Earlier:", "A glimpse ahead:" – in {LANGUAGE}) and say when the film returns
+  ("Back at the house, before all this."). Without it the listener takes the scenes as one continuous sequence.
+- Same entities from the story ("same_entity") with confidence ≥ 0.7: use one label for them throughout, and at the
+  first moment that shows the link, say it explicitly ("The girl at the window is the girl in the red coat from the
+  street."). A character's body part or tool is introduced together with the character ("the burglar's gloved hand"),
+  never as a separate "hand" or "hands".
 - Every sentence has a subject. No "stomping", "someone", "a figure".
 - State the end of the film and the fate of the main characters clearly, if it is shown.
 
@@ -29,6 +36,7 @@ Timing
 - When an important thing doesn't fit, shorten the less important things, not it.
 - Closing credits = at most ONE short block: title and director (possibly the license). Don't read lists of names
   or thanks – the time belongs to the plot. If the credits run over picture with action, describe the action.
+  Mark the credits block with "credits": true (pauses after it are not reported as undescribed).
 
 Confidence
 - Every block has "confidence" 0–1: how certain it is that what it says is in the picture. Below 0.6 add "uncertain_why"
@@ -51,5 +59,5 @@ Answer ONLY with this JSON:
   "title": "...",
   "pronunciation": {"Foreign name": "pronunciation"},
   "blocks": [{"start": 0.0, "end": 4.0, "text": "...", "confidence": 0.9,
-              "tts": "(only if needed)", "extended": false, "over_speech": false, "uncertain_why": "(only below 0.6)"}]
+              "tts": "(only if needed)", "extended": false, "over_speech": false, "credits": false, "uncertain_why": "(only below 0.6)"}]
 }

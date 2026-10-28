@@ -234,7 +234,17 @@ Same video and preparation (`--reuse-prep`), perception and everything else Sonn
 - Still worse than the manual run. All 3 remaining critical findings are in the first 50 s: the film opens with a
   flash-forward to the fight, which the script doesn't mark, and characters are not linked (the rusty robot in the
   intro = the small robot in the armchair; the "rusty hands" = the old man's prosthesis).
-- `check` flags the credits (3:16–4:02) as uncovered pauses – a false positive now that credits get one block.
+- `check` flagged the credits (3:16–4:02) as uncovered pauses. Fixed: the script marks the credits block with
+  `"credits": true` and `check` ignores the time after it.
+
+Follow-up (28 Oct 2026): the story prompt now looks for time jumps (`time_jumps`) and for different labels of the same
+character/object (`same_entity`), and the script gets both as separate sections it must act on. Log records whose time
+falls outside their scene (misread MM:SS) are moved back into the scene when the log is read. Tested on the same log
+(story → script → review only, no targeted looks): review round 1 **6 / 7 / 2** and **6 / 6 / 2** vs 6 / 8 / 1 before –
+**no measurable improvement**. Run-to-run variance is large (the story found the opening flash-forward in one test and
+not in the other), and the script still ignored a link it was given with confidence 0.75–0.8 ("a gloved hand" = the
+old man). Not yet tested: a full `auto` run, where uncertain links become targeted looks. Measuring a change needs
+several runs per variant, not one.
 
 ### `example_korn/` – Korn, Falling Away From Me (official video, 4:59, protected work – internal test only)
 
@@ -260,7 +270,7 @@ Same video and preparation (`--reuse-prep`), perception and everything else Sonn
 
 - Verify the layers with a fresh model in perception too (`auto` via a Pro subscription or an API key) and on more videos; the metric = review findings in round 1.
 - Interactive mode: questions about the video ("what is on the board at 3:20?") answered from the log, with one full-resolution frame when unclear.
-- Story layer: detect time jumps (flash-forward, flashback) and characters that are the same person; then run on more videos.
+- Time jumps and same-entity links: the story finds them inconsistently and the script ignores them – test in a full `auto` run, measure over several runs per variant; then run on more videos.
 - Speaker diarization (pyannote) – solves "who is speaking" and Rex/Jay; the model on HuggingFace requires accepting terms and a token.
 - WhisperX (word timings) and, for music, singing separation (Demucs) before VAD – Whisper missed the whole chorus in Korn.
 - Detecting important sounds (screams, gunshots – don't talk over them), e.g. YAMNet.
