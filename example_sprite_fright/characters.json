@@ -1,0 +1,52 @@
+{
+ "characters": [
+  {
+   "name": "Ellie",
+   "appearance": "dievča s čiernym copom, ružové kruhové náušnice, červená šatka, zápisník",
+   "first_seen": 12.0,
+   "name_source": "titulky (karta hlasov 9:31); hlavná postava",
+   "confidence": 0.9,
+   "voice": ""
+  },
+  {
+   "name": "Victoria",
+   "appearance": "obrovský žltooranžový natupírovaný účes, ružové oblečenie, sprej na vlasy",
+   "first_seen": 29.4,
+   "name_source": "titulky; jediná ďalšia dievčina v partii",
+   "confidence": 0.85,
+   "voice": ""
+  },
+  {
+   "name": "Rex",
+   "appearance": "vysoký blondiak v pletenej veste s kriketovou pálkou",
+   "first_seen": 29.4,
+   "name_source": "odhad: z titulkov ostáva meno Rex, v reči nezaznie",
+   "confidence": 0.6,
+   "voice": ""
+  },
+  {
+   "name": "Jay",
+   "appearance": "chudý chlapec v klobúku, červené mriežkové okuliare, rádiomagnetofón",
+   "first_seen": 37.5,
+   "name_source": "odhad: na jeho kazete je nápis DEEJAY (5:08)",
+   "confidence": 0.7,
+   "voice": ""
+  },
+  {
+   "name": "Phil",
+   "appearance": "zavalitý ryšavec s ruksakom, tričko s britskou vlajkou",
+   "first_seen": 78.0,
+   "name_source": "oslovenie v reči 1:55, keď griluje",
+   "confidence": 0.9,
+   "voice": ""
+  },
+  {
+   "name": "starý škriatok",
+   "appearance": "škriatok s bielou bradou a veľkým červeným klobúkom",
+   "first_seen": 201.9,
+   "name_source": "titulky ho volajú Elder Sprite; po slovensky označenie",
+   "confidence": 0.9,
+   "voice": ""
+  }
+ ]
+}

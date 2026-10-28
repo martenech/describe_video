@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Media: videos, audio, extracted frames and grids (large; films belong to their authors)
+*.mp4
+*.mp3
+*.wav
+*.onnx
+*.onnx.json
+frames/
+frames_full/
+grids/
+audio/
+
+# Speech and dialogue text from the films (transcripts, subtitles, model inputs that contain them)
+transcript.json
+*.json3
+*.info.json
+*_input.md
+
+# Work folders and model run artefacts
+work_*/
+responses/
+previous/
+
+# Protected work – internal test only
+example_korn/
+
+# Local backups
+_zaloha_*.tar.gz
+
+# OS / editors
+.DS_Store
+.obsidian/

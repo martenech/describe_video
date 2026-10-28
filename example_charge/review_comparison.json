@@ -1,0 +1,62 @@
+{
+ "metoda": "Ten istý film (Charge), rovnaké snímky (7 gridov prehľadu + 19 cielených gridov). A = starý postup: čerstvý kolega napísal scenár priamo zo snímok. B = nový postup: log vnímania → príbeh (len text, iný kolega) → cielené pozretie otázok → scenár len z textu (ďalší kolega). Oba scenáre hodnotil redakčný prechod (prompty/redakcia.md) – samostatné volanie pre každý, bez informácie, ktorý je ktorý.",
+ "kolo_1_bez_promptu": {
+  "poznamka": "prvé volania redakcie – redaktor omylom nemal súbor s promptom (zmizol z /tmp), použil typy z opisu; rovnaké podmienky pre A aj B; potom znova s promptom",
+  "A": {
+   "d1": 0,
+   "d2": 8,
+   "d3": 8,
+   "spolu": 16
+  },
+  "B": {
+   "d1": 0,
+   "d2": 7,
+   "d3": 8,
+   "spolu": 15
+  }
+ },
+ "kolo_1_s_promptom": {
+  "A": {
+   "bloky": 44,
+   "d1": 2,
+   "d2": 8,
+   "d3": 6,
+   "zasadne": [
+    "odkiaľ starec po boji vyťahuje batériu (v scenári ju už mal)",
+    "posledný záber pred titulkami nejasný (istota 0,5)"
+   ],
+   "spolu": 16
+  },
+  "B": {
+   "bloky": 29,
+   "d1": 0,
+   "d2": 6,
+   "d3": 10,
+   "spolu": 16
+  }
+ },
+ "kolo_2_B_po_oprave": {
+  "d1": 0,
+  "d2": 5,
+  "d3": 6,
+  "opravy": "ružová farba = prestrelená plechovka spreja PINK (nové cielené pozretie 1:06–1:17), prítomný čas pri krádeži preukazu, 'prudko sa obzrie' namiesto 'vyľakane', návrat domov, bez 'odrezanej' ruky"
+ },
+ "spolocne_v_A_aj_B": [
+  "ružová farba na robotovi bez pôvodu",
+  "návrat domov / je to tá istá dielňa",
+  "odkiaľ je rezací kotúč / ako sa skončil boj"
+ ],
+ "len_v_A": [
+  "batéria 'vytiahnutá' po boji, hoci ju starec už mal (d1)",
+  "nejasný posledný záber (d1)",
+  "malý robot v kresle – ten istý z dielne?",
+  "mechanická ruka nikde nasadená",
+  "robotické rameno bez následku"
+ ],
+ "len_v_B": [
+  "prečo starec odchádza z dielne",
+  "kto hovorí 'all right' pri 0:38",
+  "skok z bitky na útok kotúčom"
+ ],
+ "zaver": "Celkový počet nálezov je rovnaký (16 : 16); rozdiel je v závažnosti: nový postup 0 zásadných (A 2) a menej mätúcich (6 vs 8), zato viac drobností. Jedno video, jedno hodnotenie – rozdiel môže byť čiastočne náhoda."
+}

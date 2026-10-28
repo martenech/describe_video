@@ -1,0 +1,149 @@
+{
+ "state": {
+  "characters": [
+   {
+    "label": "Ellie",
+    "appearance": "dievča s čiernym vysokým copom, veľké ružové kruhové náušnice, červená šatka na krku, modrá košeľa, zápisník",
+    "name": "Ellie (titulky na konci)"
+   },
+   {
+    "label": "Victoria",
+    "appearance": "dievča s obrovským žltooranžovým natupírovaným účesom, ružové oblečenie, sieťované pančuchy, sprej na vlasy",
+    "name": "Victoria (titulky)"
+   },
+   {
+    "label": "vysoký blondiak",
+    "appearance": "vysoký svalnatý chlapec, blond účes, pletená vesta s V-výstrihom, kriketová pálka",
+    "name": null
+   },
+   {
+    "label": "chlapec s boomboxom",
+    "appearance": "chudý chlapec v klobúku, červené mriežkové okuliare, nosí veľký rádiomagnetofón",
+    "name": null
+   },
+   {
+    "label": "Phil",
+    "appearance": "zavalitý ryšavý chlapec, tričko s britskou vlajkou, ruksak, griluje",
+    "name": "Phil (z reči)"
+   },
+   {
+    "label": "škriatkovia",
+    "appearance": "malí zelení tvorčekovia s červenými klobúkmi muchotrávky s bielymi bodkami",
+    "name": "Sprites (z reči)"
+   },
+   {
+    "label": "starý škriatok",
+    "appearance": "škriatok s bielou bradou a fúzmi, veľký červený klobúk",
+    "name": "Elder Sprite (titulky)"
+   }
+  ],
+  "place": "les, tábor na čistinke; od 3:58 noc",
+  "story_so_far": "Päť tínedžerov ide do lesa na školský projekt. Ellie si všíma prírodu, ostatní ničia tábor. Pri čistinke žijú škriatkovia muchotrávky, privítajú ich. V noci škriatkovia zaútočia na partiu jedného po druhom; Ellie bojuje, zachráni sa. Ráno škriatkovia odchádzajú s trofejami, titulky.",
+  "open_questions": [
+   "Čo sa stane so slimákom na začiatku?",
+   "Čo presne robí partia v tábore (1:19–1:31)?",
+   "Ako sa Ellie zachráni (8:05–8:46)?"
+  ]
+ },
+ "grid_notes": "Gridy 1–14 prezreté; titulky od 9:19, záverečná pieseň počas titulkov.",
+ "segments": [
+  {
+   "start": 24.0,
+   "end": 31.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 3,
+   "what_to_find": "čo sa stane so slimákom, kto prichádza"
+  },
+  {
+   "start": 59.0,
+   "end": 69.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 2,
+   "what_to_find": "vták v plastových krúžkoch – kto ho oslobodí"
+  },
+  {
+   "start": 78.0,
+   "end": 93.0,
+   "reason": "veľa postáv",
+   "suggested_fps": 2,
+   "what_to_find": "čo kto robí pri zakladaní tábora"
+  },
+  {
+   "start": 129.0,
+   "end": 156.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 1.2,
+   "what_to_find": "živá muchotrávka – čo robí, kto ju vidí"
+  },
+  {
+   "start": 163.0,
+   "end": 177.0,
+   "reason": "veľa postáv",
+   "suggested_fps": 2,
+   "what_to_find": "čistinka so škriatkami"
+  },
+  {
+   "start": 216.0,
+   "end": 236.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 1.5,
+   "what_to_find": "zavitý predmet, pohár v rukách blondiaka"
+  },
+  {
+   "start": 255.0,
+   "end": 286.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 1,
+   "what_to_find": "noc: Ellie sa zobudí, prázdne spacáky, čo vidí"
+  },
+  {
+   "start": 286.0,
+   "end": 318.0,
+   "reason": "rýchly pohyb",
+   "suggested_fps": 1,
+   "what_to_find": "útek partie, baterka"
+  },
+  {
+   "start": 318.0,
+   "end": 358.0,
+   "reason": "rýchly pohyb",
+   "suggested_fps": 0.8,
+   "what_to_find": "boj blondiaka a Victorie, Ellie s ihlicami"
+  },
+  {
+   "start": 358.0,
+   "end": 390.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 1,
+   "what_to_find": "Victoria v pavučine, blondiak a slimáky"
+  },
+  {
+   "start": 390.0,
+   "end": 432.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 0.8,
+   "what_to_find": "chlapec s boomboxom v dutom strome, Ellie a Phil"
+  },
+  {
+   "start": 432.0,
+   "end": 480.0,
+   "reason": "rýchly pohyb",
+   "suggested_fps": 0.7,
+   "what_to_find": "Ellie bojuje so škriatkom"
+  },
+  {
+   "start": 480.0,
+   "end": 528.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 0.7,
+   "what_to_find": "biela škvrna na starom škriatkovi, Ellie uteká"
+  },
+  {
+   "start": 528.0,
+   "end": 560.0,
+   "reason": "veľa postáv",
+   "suggested_fps": 1,
+   "what_to_find": "sprievod škriatkov – čo nesú"
+  }
+ ]
+}

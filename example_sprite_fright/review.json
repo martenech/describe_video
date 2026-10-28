@@ -1,0 +1,89 @@
+{
+ "source": "nezávislý kolega (ask_colleague) nad scenar_stary.json, 2026-10-24; nálezy: 20 (8× dôležitosť 1)",
+ "segments": [
+  {
+   "start": 57.0,
+   "end": 71.0,
+   "reason": "redakcia: unresolved_reference",
+   "suggested_fps": 2,
+   "what_to_find": "Ako Ellie oslobodí žltého vtáka?"
+  },
+  {
+   "start": 25.8,
+   "end": 40.0,
+   "reason": "redakcia: character_unintroduced",
+   "suggested_fps": 1,
+   "what_to_find": "Vzhľad štyroch členov partie a kto hovorí ktoré repliky"
+  },
+  {
+   "start": 217.0,
+   "end": 232.0,
+   "reason": "redakcia: unresolved_reference",
+   "suggested_fps": 2,
+   "what_to_find": "Čo je to červené na klobúkoch, čo sa stalo s vtákmi?"
+  },
+  {
+   "start": 252.0,
+   "end": 266.0,
+   "reason": "redakcia: plot_gap",
+   "suggested_fps": 1,
+   "what_to_find": "Zobudí sa Ellie, kde je partia, je to sen?"
+  },
+  {
+   "start": 286.0,
+   "end": 300.0,
+   "reason": "redakcia: plot_gap",
+   "suggested_fps": 2,
+   "what_to_find": "Kto je zviazaný, ako sa oslobodia, osud Phila"
+  },
+  {
+   "start": 300.0,
+   "end": 310.0,
+   "reason": "redakcia: ambiguous_subject",
+   "suggested_fps": 2,
+   "what_to_find": "Kto uteká"
+  },
+  {
+   "start": 349.0,
+   "end": 363.0,
+   "reason": "redakcia: plot_gap",
+   "suggested_fps": 2,
+   "what_to_find": "Ako sa Victoria dostane do pavučiny"
+  },
+  {
+   "start": 384.0,
+   "end": 399.0,
+   "reason": "redakcia: plot_gap",
+   "suggested_fps": 2,
+   "what_to_find": "Cieľ slizniaka, ako sa Jay dostane do slizu"
+  },
+  {
+   "start": 475.0,
+   "end": 488.0,
+   "reason": "redakcia: ambiguous_subject",
+   "suggested_fps": 1,
+   "what_to_find": "Je starý škriatok ten bielobradý z 03:22?"
+  },
+  {
+   "start": 515.0,
+   "end": 530.0,
+   "reason": "redakcia: unclear_outcome",
+   "suggested_fps": 2,
+   "what_to_find": "Kto je malá postava, čo sa stane s Ellie"
+  },
+  {
+   "start": 530.0,
+   "end": 545.0,
+   "reason": "redakcia: unclear_outcome",
+   "suggested_fps": 2,
+   "what_to_find": "Pokračovanie osudu Ellie pred koncom noci"
+  },
+  {
+   "start": 545.0,
+   "end": 555.0,
+   "reason": "redakcia: unclear_outcome",
+   "suggested_fps": 2,
+   "what_to_find": "Aké trofeje nesú škriatkovia, sú medzi nimi Elliine veci?"
+  }
+ ]
+}

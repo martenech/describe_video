@@ -1,0 +1,428 @@
+{
+ "title": "Sprite Fright – audiodeskripcia",
+ "pronunciation": {
+  "Ellie": "Elli",
+  "Phil": "Fil",
+  "Jay": "Džej",
+  "Victoria": "Viktória",
+  "Sprite Fright": "Sprajt frajt",
+  "Blender Studio": "Blender Stúdio",
+  "Matthew Luhn": "Metju Lún",
+  "Creative Commons Attribution 4.0": "Kriejtiv Komons Atribjúšn štyri nula",
+  "studio.blender.org": "stúdio bodka blender bodka org",
+  "Blender Foundation": "Blender Faundejšn"
+ },
+ "blocks": [
+  {
+   "start": 0.0,
+   "end": 5.4,
+   "text": "Sprite Fright, animovaný film Blender Studia, desať a pol minúty, v angličtine.",
+   "confidence": 0.95
+  },
+  {
+   "start": 5.4,
+   "end": 10.0,
+   "text": "Nápis: Blender Studio uvádza. Zalesnené kopce pod modrou oblohou.",
+   "confidence": 0.95
+  },
+  {
+   "start": 10.0,
+   "end": 20.3,
+   "text": "Les zblízka: slimák so žltou ulitou. Skloní sa k nemu Ellie, dievča s čiernym copom, ružovými náušnicami a zápisníkom.",
+   "confidence": 0.95
+  },
+  {
+   "start": 23.5,
+   "end": 28.43,
+   "text": "Okolo slimáka dupú jej spolužiaci: biele tenisky, sieťované pančuchy.",
+   "confidence": 0.9
+  },
+  {
+   "start": 29.0,
+   "end": 52.2,
+   "text": "Partia: Victoria s obrovským žltooranžovým účesom, vysoký blondiak s kriketovou pálkou, Jay s rádiomagnetofónom a červenými okuliarmi.",
+   "confidence": 0.85,
+   "extended": true
+  },
+  {
+   "start": 52.2,
+   "end": 54.35,
+   "text": "Ellie sa zastaví a počúva.",
+   "confidence": 0.8
+  },
+  {
+   "start": 61.3,
+   "end": 62.76,
+   "text": "Medzi listami sa zmieta žltý vtáčik zamotaný v plastových krúžkoch.",
+   "confidence": 0.95,
+   "extended": true
+  },
+  {
+   "start": 65.3,
+   "end": 67.21,
+   "text": "Ellie ho vyslobodí, vtáčik jej sedí na dlani.",
+   "confidence": 0.95,
+   "extended": true
+  },
+  {
+   "start": 79.4,
+   "end": 86.0,
+   "text": "Čistinka. Phil, zavalitý ryšavec s ruksakom, rozkladá gril. Jay zhodí z konára hniezdo.",
+   "confidence": 0.9
+  },
+  {
+   "start": 86.0,
+   "end": 88.8,
+   "text": "Victoria strieka sprejom na pavúka.",
+   "confidence": 0.9
+  },
+  {
+   "start": 88.8,
+   "end": 91.52,
+   "text": "Phil zapáli gril, vyšľahne zelený plameň.",
+   "confidence": 0.9
+  },
+  {
+   "start": 122.7,
+   "end": 127.28,
+   "text": "Pri Philových šľapkách sa pohne malá muchotrávka.",
+   "confidence": 0.95
+  },
+  {
+   "start": 131.3,
+   "end": 134.0,
+   "text": "Ellie na ňu hľadí.",
+   "confidence": 0.95
+  },
+  {
+   "start": 134.0,
+   "end": 143.0,
+   "text": "Muchotrávka vystrčí zelené nožičky a odcupitá pomedzi plechovky a odpadky.",
+   "confidence": 0.95
+  },
+  {
+   "start": 143.0,
+   "end": 146.5,
+   "text": "Schová sa medzi ostatné muchotrávky.",
+   "confidence": 0.9
+  },
+  {
+   "start": 146.5,
+   "end": 151.0,
+   "text": "Ellie sa za ňou plazí do krovia. Ostatní sa jej držia za chrbtom.",
+   "confidence": 0.8
+  },
+  {
+   "start": 151.0,
+   "end": 159.75,
+   "text": "Spoza listov uvidí čistinku plnú živých muchotráviek.",
+   "confidence": 0.95
+  },
+  {
+   "start": 165.4,
+   "end": 171.5,
+   "text": "Partia nakúka z krovia. Malí zelení škriatkovia s klobúkmi muchotrávok kŕmia lienky trávou.",
+   "confidence": 0.95
+  },
+  {
+   "start": 200.6,
+   "end": 202.7,
+   "text": "Z dutiny stromu vykukne starý škriatok s bielou bradou.",
+   "confidence": 0.95,
+   "extended": true
+  },
+  {
+   "start": 224.2,
+   "end": 226.38,
+   "text": "Škriatkovia nesú do nory ponožku s červenými fľakmi.",
+   "confidence": 0.85,
+   "extended": true
+  },
+  {
+   "start": 248.2,
+   "end": 254.68,
+   "text": "Noc. Ellie zaspí nad zápisníkom s kresbou škriatkov.",
+   "confidence": 0.9
+  },
+  {
+   "start": 257.7,
+   "end": 259.12,
+   "text": "Ellie sa zobudí sama.",
+   "confidence": 0.9
+  },
+  {
+   "start": 261.3,
+   "end": 263.08,
+   "text": "Rozsvieti baterku. Spacáky ostatných sú prázdne.",
+   "confidence": 0.95,
+   "extended": true
+  },
+  {
+   "start": 268.3,
+   "end": 270.08,
+   "text": "V kroví žiari svetlo.",
+   "confidence": 0.9
+  },
+  {
+   "start": 272.4,
+   "end": 278.0,
+   "text": "Ellie v kroví. Škriatkovia s fakľami obkolesia zviazaného Phila so šiškou v ústach.",
+   "confidence": 0.95
+  },
+  {
+   "start": 278.0,
+   "end": 282.0,
+   "text": "Polejú ho podpaľovačom a vyšľahnú zelené plamene.",
+   "confidence": 0.9
+  },
+  {
+   "start": 282.0,
+   "end": 286.4,
+   "text": "Victoria, blondiak a Jay ležia zviazaní na zemi.",
+   "confidence": 0.85
+  },
+  {
+   "start": 286.4,
+   "end": 305.0,
+   "text": "Ellie sa k nim prikradne a rozväzuje blondiakovi ruky.",
+   "confidence": 0.9,
+   "extended": true
+  },
+  {
+   "start": 305.0,
+   "end": 312.0,
+   "text": "Voľní sú aj Victoria a Jay. Utekajú štyria, Phil nie. Ellie ostane sama s baterkou.",
+   "confidence": 0.85
+  },
+  {
+   "start": 312.0,
+   "end": 314.5,
+   "text": "V lúči sa objavia traja škriatkovia.",
+   "confidence": 0.9
+  },
+  {
+   "start": 314.5,
+   "end": 317.36,
+   "text": "Škriatok jej skočí na baterku a cerí zuby.",
+   "confidence": 0.9
+  },
+  {
+   "start": 325.2,
+   "end": 333.0,
+   "text": "Inde: Victoria strieka sprejom na škriatkov. Tí ju zhodia na zem a jej vlastným sprejom jej strieknu do tváre.",
+   "confidence": 0.9
+  },
+  {
+   "start": 333.0,
+   "end": 338.0,
+   "text": "Jay sa schová za strom a vlezie do dutého pňa.",
+   "confidence": 0.85
+  },
+  {
+   "start": 338.0,
+   "end": 344.5,
+   "text": "Ellie. Škriatkovia z konára spustia vlasce s háčikmi, zachytia jej vlasy a dvíhajú ju.",
+   "confidence": 0.9
+  },
+  {
+   "start": 344.5,
+   "end": 348.5,
+   "text": "Vytrhne sa a spadne. Na zemi leží vreckový nôž.",
+   "confidence": 0.9
+  },
+  {
+   "start": 348.5,
+   "end": 352.5,
+   "text": "Škriatok nôž schmatne a vyškiera sa.",
+   "confidence": 0.9
+  },
+  {
+   "start": 352.5,
+   "end": 356.84,
+   "text": "Blondiak mláti pálkou škriatkov, čo vykukujú z dier v padnutom kmeni.",
+   "confidence": 0.9
+  },
+  {
+   "start": 362.3,
+   "end": 364.04,
+   "text": "Victoria cúva pred škriatkami a uviazne v pavučine.",
+   "confidence": 0.9,
+   "extended": true
+  },
+  {
+   "start": 369.2,
+   "end": 373.5,
+   "text": "Victoria je celá zabalená v pavučine.",
+   "confidence": 0.9
+  },
+  {
+   "start": 373.5,
+   "end": 380.5,
+   "text": "Blondiakovi na pleci sedí slimák. Škriatkovia v korune stromu do neho fúkačkami strieľajú ďalšie.",
+   "confidence": 0.9
+  },
+  {
+   "start": 380.5,
+   "end": 384.0,
+   "text": "Slimáky mu pokryjú tvár, blondiak spadne.",
+   "confidence": 0.9
+  },
+  {
+   "start": 384.0,
+   "end": 387.56,
+   "text": "Škriatkovia nabijú do praku obrovského slizniaka.",
+   "confidence": 0.8
+  },
+  {
+   "start": 404.3,
+   "end": 410.0,
+   "text": "Jay sa krčí na dne dutého stromu. Škriatkovia zhora nalejú zelený sliz a Jay sa v ňom topí.",
+   "confidence": 0.85
+  },
+  {
+   "start": 410.0,
+   "end": 412.3,
+   "text": "Klesne aj jeho rádiomagnetofón.",
+   "confidence": 0.9
+  },
+  {
+   "start": 412.3,
+   "end": 414.28,
+   "text": "Ellie je sama.",
+   "confidence": 0.9
+  },
+  {
+   "start": 421.5,
+   "end": 427.0,
+   "text": "Ellie sa plazí k batohu. Škriatok, čo stúpil do rozsypanej soli, sa zvíja.",
+   "confidence": 0.8
+  },
+  {
+   "start": 427.0,
+   "end": 431.92,
+   "text": "Ellie vytiahne z batoha praclíky, čipsy a solené oriešky.",
+   "confidence": 0.95
+  },
+  {
+   "start": 442.6,
+   "end": 447.5,
+   "text": "Škriatkovia so zbraňami sa blížia. Ellie po nich hádže praclíky.",
+   "confidence": 0.95
+  },
+  {
+   "start": 447.5,
+   "end": 450.5,
+   "text": "Zasiahnutí škriatkovia syčia a padajú.",
+   "confidence": 0.9
+  },
+  {
+   "start": 450.5,
+   "end": 455.0,
+   "text": "Ellie vytiahne slanú mäsovú tyčinku a zovrie ju ako palicu.",
+   "confidence": 0.9
+  },
+  {
+   "start": 455.0,
+   "end": 459.5,
+   "text": "Mláti ňou škriatkov jedného po druhom.",
+   "confidence": 0.9
+  },
+  {
+   "start": 459.5,
+   "end": 468.0,
+   "text": "Jeden jej skočí na chrbát. Ellie spadne a tyčinka sa jej vyšmykne.",
+   "confidence": 0.9
+  },
+  {
+   "start": 468.0,
+   "end": 475.0,
+   "text": "Ellie sa doplazí k padnutému kmeňu.",
+   "confidence": 0.9
+  },
+  {
+   "start": 475.0,
+   "end": 478.56,
+   "text": "Na kmeni stojí starý škriatok s nožom.",
+   "confidence": 0.95
+  },
+  {
+   "start": 487.2,
+   "end": 492.88,
+   "text": "Starému škriatkovi plesne do tváre vtáčí trus. Zvalí sa.",
+   "confidence": 0.95
+  },
+  {
+   "start": 496.9,
+   "end": 501.0,
+   "text": "Na konári sedí žltý vtáčik, ten, ktorého Ellie vyslobodila.",
+   "confidence": 0.9
+  },
+  {
+   "start": 501.0,
+   "end": 506.0,
+   "text": "Ellie sa usmeje, vyskočí a uteká.",
+   "confidence": 0.95
+  },
+  {
+   "start": 506.0,
+   "end": 510.0,
+   "text": "Beží tmavým lesom.",
+   "confidence": 0.9
+  },
+  {
+   "start": 510.0,
+   "end": 515.5,
+   "text": "Skrýva sa za stromom a obzerá sa.",
+   "confidence": 0.95
+  },
+  {
+   "start": 515.5,
+   "end": 518.5,
+   "text": "Ellie sa zamračí a vyjde spoza stromu.",
+   "confidence": 0.8
+  },
+  {
+   "start": 518.5,
+   "end": 526.47,
+   "text": "Ellie sa v diaľke vzďaľuje cez čistinu. V popredí ju sleduje starý škriatok, tvár zašpinenú od trusu.",
+   "confidence": 0.8
+  },
+  {
+   "start": 528.2,
+   "end": 530.86,
+   "text": "Starý škriatok rozhodí rukami.",
+   "confidence": 0.8
+  },
+  {
+   "start": 533.2,
+   "end": 536.04,
+   "text": "Ellie zmizla v lese.",
+   "confidence": 0.8
+  },
+  {
+   "start": 546.5,
+   "end": 553.5,
+   "text": "Svitá. Škriatkovia pochodujú lesom. Na klobúkoch majú trsy žltých a oranžových vlasov.",
+   "confidence": 0.85
+  },
+  {
+   "start": 553.5,
+   "end": 554.63,
+   "text": "Názov: Sprite Fright.",
+   "confidence": 0.95,
+   "over_speech": true
+  },
+  {
+   "start": 573.9,
+   "end": 580.6,
+   "text": "Titulky. Scenár a réžia: Matthew Luhn. Hlasy: Ellie, Rex, Victoria, Jay, Phil.",
+   "confidence": 0.95
+  },
+  {
+   "start": 617.5,
+   "end": 629.89,
+   "text": "Nápis: Sprite Fright je otvorený film, zdrojové súbory sú na studio.blender.org. Licencia Creative Commons Attribution 4.0, Blender Foundation.",
+   "confidence": 0.95
+  }
+ ]
+}

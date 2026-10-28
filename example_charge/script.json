@@ -1,0 +1,189 @@
+{
+ "title": "Charge – Blender Open Movie",
+ "pronunciation": {
+  "Charge": "Čárdž",
+  "Blender Studio": "Blender Stúdio"
+ },
+ "blocks": [
+  {
+   "start": 3.1,
+   "end": 9.3,
+   "text": "Logo Blender. Charge, animovaný film Blender Studia, takmer bez slov.",
+   "confidence": 0.9
+  },
+  {
+   "start": 9.3,
+   "end": 16.2,
+   "text": "Tmavá dielňa so sviečkami. Malý hrdzavý robot s okrúhlymi očami. Na displeji na hrudi takmer vybitá batéria.",
+   "confidence": 0.85
+  },
+  {
+   "start": 16.2,
+   "end": 23.6,
+   "text": "Vzadu pri stole kreslí kružidlom starec so sivou bradou a pletenou čiapkou, na pravej ruke má mechanickú rukavicu.",
+   "confidence": 0.85
+  },
+  {
+   "start": 23.6,
+   "end": 28.6,
+   "text": "Starec odchádza z dielne. Noc, hmlistá krajina, obrovská stavba s modrými svetlami.",
+   "confidence": 0.75
+  },
+  {
+   "start": 28.6,
+   "end": 33.9,
+   "text": "Starec vylomí hasákom zámok na bráne. Zdvihákom nadvihne ťažké vráta a podlezie.",
+   "confidence": 0.75
+  },
+  {
+   "start": 33.9,
+   "end": 36.5,
+   "text": "Starec nastrieka ružovým sprejom kameru.",
+   "confidence": 0.9
+  },
+  {
+   "start": 36.5,
+   "end": 38.2,
+   "text": "Strážnik číta pri monitoroch.",
+   "confidence": 0.85
+  },
+  {
+   "start": 41.1,
+   "end": 46.6,
+   "text": "Starec sa prikradne a vytiahne strážnikovi z vrecka preukaz. Na košeli nápis VÖRÐUR.",
+   "confidence": 0.85,
+   "tts": "Starec sa prikradne a vytiahne strážnikovi z vrecka preukaz. Na košeli nápis vördur."
+  },
+  {
+   "start": 46.6,
+   "end": 59.0,
+   "text": "Starec priloží preukaz k čítačke, tá sa rozsvieti nazeleno. V hale s pásmi vyberie zo stojana zeleno svietiacu batériu.",
+   "confidence": 0.8
+  },
+  {
+   "start": 59.0,
+   "end": 63.6,
+   "text": "Starec sa prudko obzrie. V tmavých dverách svieti červené oko.",
+   "confidence": 0.8
+  },
+  {
+   "start": 63.6,
+   "end": 69.2,
+   "text": "Vchádza bezpečnostný robot, biely humanoid so šesťhrannou hlavou a červeným okom.",
+   "confidence": 0.85
+  },
+  {
+   "start": 71.8,
+   "end": 76.6,
+   "text": "Robot strieľa. Starec sa kryje za strojom a hodí po ňom sprej.",
+   "confidence": 0.75
+  },
+  {
+   "start": 76.6,
+   "end": 82.4,
+   "text": "Lúč plechovku prestrelí, robota zaleje ružová farba. Lúč zasiahne stojan, sršia iskry.",
+   "confidence": 0.7
+  },
+  {
+   "start": 82.4,
+   "end": 89.0,
+   "text": "Halu zaplní tyrkysový dym s výbojmi. Starec čaká s hasákom na schodoch a z dymu skočí na robota.",
+   "confidence": 0.7
+  },
+  {
+   "start": 89.0,
+   "end": 98.0,
+   "text": "Starec mláti bezpečnostného robota hasákom. Robot ho odhodí na pohyblivý pás, starec sa z neho skotúľa.",
+   "confidence": 0.65
+  },
+  {
+   "start": 98.0,
+   "end": 105.4,
+   "text": "Bezpečnostný robot vezme starcovi hasák a udrie ho. Starec padne na zem.",
+   "confidence": 0.75
+  },
+  {
+   "start": 108.4,
+   "end": 119.5,
+   "text": "Starec sa zviecha, tvár má od krvi. Krčí sa pri zemi.",
+   "confidence": 0.75
+  },
+  {
+   "start": 119.5,
+   "end": 126.2,
+   "text": "Starec vrazí do robota mechanickú ruku, rotujúci kotúč reže, sršia iskry.",
+   "confidence": 0.6,
+   "uncertain_why": "kotúč pred 2:02 nevidno – asi súčasť mechanickej rukavice"
+  },
+  {
+   "start": 126.2,
+   "end": 132.5,
+   "text": "Robot znehybnie s rozrezanou hlavou. Starec odhodí jeho bielu ruku.",
+   "confidence": 0.65
+  },
+  {
+   "start": 132.5,
+   "end": 137.6,
+   "text": "Starec drží zelenú batériu, pozrie na ňu a odíde. Stroje v hale za ním horia.",
+   "confidence": 0.75
+  },
+  {
+   "start": 137.6,
+   "end": 142.7,
+   "text": "Hmlistý svah v noci. Starec s batériou sa pozerá na horiacu stavbu v diaľke.",
+   "confidence": 0.85
+  },
+  {
+   "start": 149.0,
+   "end": 156.0,
+   "text": "Starec sa vráti domov. Drevené dvere so zámkom, izba s kozubom, stolička a kreslo.",
+   "confidence": 0.8
+  },
+  {
+   "start": 156.0,
+   "end": 165.0,
+   "text": "Starec si sadne k malému robotovi v kresle a vloží mu do hrude zeleno svietiacu batériu.",
+   "confidence": 0.85
+  },
+  {
+   "start": 165.0,
+   "end": 174.9,
+   "text": "Hruď malého robota svieti nazeleno. Malý robot pomaly otočí hlavu k starcovi.",
+   "confidence": 0.85
+  },
+  {
+   "start": 176.9,
+   "end": 188.0,
+   "text": "Starec a malý robot sedia spolu pri ohni. Zblízka: mechanická ruka starca a ruka malého robota sú spojené.",
+   "confidence": 0.65
+  },
+  {
+   "start": 188.0,
+   "end": 194.5,
+   "text": "Tma. Nápis: CHARGE.",
+   "confidence": 0.95,
+   "tts": "Tma. Nápis: Čárdž."
+  },
+  {
+   "start": 194.5,
+   "end": 213.6,
+   "text": "Záverečné titulky, vedľa nich zábery z výroby filmu v programe Blender. Nápis: Written and Directed by Hjalti Hjálmarsson.",
+   "confidence": 0.8,
+   "tts": "Záverečné titulky, vedľa nich zábery z výroby filmu v programe Blender. Nápis: Riten end dajrektid baj Hjalti Hjaulmarson."
+  },
+  {
+   "start": 214.5,
+   "end": 242.8,
+   "text": "Art Director Andy Goralczyk. Lead Animator Rik Schutte. Producer Francesco Siddi. Executive Producer Ton Roosendaal.",
+   "confidence": 0.6,
+   "tts": "Árt dajrektor Endi Goralčik. Líd enimejtor Rik Schute. Prodjúser Frančesko Sidi. Egzekjutiv prodjúser Ton Rózendál."
+  },
+  {
+   "start": 245.8,
+   "end": 262.8,
+   "text": "Nápis: 'Charge' is an Open Movie. Licencia Creative Commons Attribution 4.0, Blender Foundation. studio.blender.org/charge",
+   "confidence": 0.75,
+   "tts": "Nápis: Čárdž iz en oupn múvi. Licencia Kriejtiv Komons Etribjúšn 4.0, Blender Faundejšn. stúdio bodka blender bodka org lomka čárdž."
+  }
+ ]
+}

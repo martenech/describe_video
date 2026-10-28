@@ -1,0 +1,130 @@
+{
+ "state": {
+  "characters": [
+   {
+    "label": "bežkyňa",
+    "appearance": "mladá štíhla žena s tyrkysovými vlasmi vo vrkoči, tmavé oblečenie, v ruke kelímok kávy",
+    "name": null
+   },
+   {
+    "label": "muž v červenom",
+    "appearance": "mladý muž s oranžovými vlasmi, červený sveter",
+    "name": null
+   },
+   {
+    "label": "barista",
+    "appearance": "plavovlasá žena za pultom kaviarne",
+    "name": null
+   }
+  ],
+  "place": "štylizované animované mesto; kaviareň s veľkým oknom; strmý svah nad mestom",
+  "story_so_far": "Úvodné titulky. Bežkyňa beží dolu svahom a cez rad priestorov: byt so škatuľami, ružová ordinácia, tmavá chodba, večerná reštaurácia pri ruskom kolese, kostol so svadbou, cintorín v daždi, park s kočíkom, nebo nad mestom. Na konci prvého kola kaviareň, kde muž v červenom kľačí pred ženou s tyrkysovými vlasmi. Celé kolo sa opakuje ešte dvakrát (0:58, 1:49). Na konci sedí bežkyňa sama v tmavom byte medzi kelímkami od kávy.",
+  "open_questions": [
+   "Kto je v každej izbe – bežkyňa sa vidí sama v minulosti (s mužom v červenom)?",
+   "Čo sa deje v kaviarni – žiadosť o ruku?",
+   "Líšia sa tri kolá?",
+   "Čo presne robí na konci v byte?"
+  ]
+ },
+ "grid_notes": "Gridy 1–3: tri takmer rovnaké kolá behu cez životné situácie, každé končí v kaviarni. Grid 3 končí tmavým bytom a čiernou. Grid 4: záverečné titulky, licencia CC BY 4.0.",
+ "segments": [
+  {
+   "start": 10.7,
+   "end": 16.5,
+   "reason": "nejasná akcia",
+   "suggested_fps": 2,
+   "what_to_find": "byt so škatuľami a ružová miestnosť – kto tam je a čo robí"
+  },
+  {
+   "start": 16.5,
+   "end": 22.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 2,
+   "what_to_find": "ordinácia a tmavá chodba – čo sa tam deje, kto je v kresle"
+  },
+  {
+   "start": 22.0,
+   "end": 28.0,
+   "reason": "rýchly pohyb",
+   "suggested_fps": 3,
+   "what_to_find": "reštaurácia a balón nad ruským kolesom"
+  },
+  {
+   "start": 28.0,
+   "end": 36.0,
+   "reason": "veľa postáv",
+   "suggested_fps": 2,
+   "what_to_find": "kto sa žení v kostole a kto stojí pri hrobe"
+  },
+  {
+   "start": 36.0,
+   "end": 44.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 2,
+   "what_to_find": "park s kočíkom, let nad mestom – čo je ten biely predmet"
+  },
+  {
+   "start": 44.6,
+   "end": 50.6,
+   "reason": "veľa postáv",
+   "suggested_fps": 2,
+   "what_to_find": "kaviareň: kto je kto, čo sa stane pri pulte"
+  },
+  {
+   "start": 50.6,
+   "end": 58.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 2,
+   "what_to_find": "kaviareň: žiadosť o ruku? ako sa kolo vráti na svah"
+  },
+  {
+   "start": 131.0,
+   "end": 139.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 2,
+   "what_to_find": "tretie kolo: cintorín a park – rozdiel oproti prvému kolu"
+  },
+  {
+   "start": 144.0,
+   "end": 152.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 2,
+   "what_to_find": "tretie kolo: kaviareň, letiaci kelímok – čo sa stane"
+  },
+  {
+   "start": 152.0,
+   "end": 160.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 2,
+   "what_to_find": "koniec: prechod z kaviarne do tmavého bytu"
+  },
+  {
+   "start": 160.0,
+   "end": 166.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 2,
+   "what_to_find": "koniec v byte, čierna, nápis?"
+  },
+  {
+   "start": 59.0,
+   "end": 78.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 1,
+   "what_to_find": "2. kolo – líši sa od 1. kola (byt, nemocnica, terasa, kostol)?"
+  },
+  {
+   "start": 78.0,
+   "end": 97.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 1,
+   "what_to_find": "2. kolo – cintorín, park, kaviareň: rozdiely oproti 1. kolu?"
+  },
+  {
+   "start": 109.0,
+   "end": 131.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 1,
+   "what_to_find": "3. kolo – byt, nemocnica, terasa, kostol: rozdiely?"
+  }
+ ]
+}

@@ -1,0 +1,263 @@
+[
+ {
+  "block": 1,
+  "start": 3.1,
+  "duration": 4.1,
+  "room": 6.2,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 2,
+  "start": 9.3,
+  "duration": 6.48,
+  "room": 6.9,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 3,
+  "start": 16.2,
+  "duration": 6.56,
+  "room": 7.4,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 4,
+  "start": 23.6,
+  "duration": 4.83,
+  "room": 5.0,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 5,
+  "start": 28.6,
+  "duration": 4.96,
+  "room": 5.3,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 6,
+  "start": 33.9,
+  "duration": 2.29,
+  "room": 2.6,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 7,
+  "start": 36.5,
+  "duration": 1.68,
+  "room": 1.66,
+  "tempo": 1.0,
+  "overflow": 0.02,
+  "freeze": false
+ },
+ {
+  "block": 8,
+  "start": 41.1,
+  "duration": 4.95,
+  "room": 5.5,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 9,
+  "start": 46.6,
+  "duration": 7.26,
+  "room": 12.4,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 10,
+  "start": 59.0,
+  "duration": 3.49,
+  "room": 4.6,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 11,
+  "start": 63.6,
+  "duration": 4.66,
+  "room": 5.64,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 12,
+  "start": 71.8,
+  "duration": 3.49,
+  "room": 4.8,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 13,
+  "start": 76.6,
+  "duration": 5.61,
+  "room": 5.8,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 14,
+  "start": 82.4,
+  "duration": 5.5,
+  "room": 6.6,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 15,
+  "start": 89.0,
+  "duration": 6.06,
+  "room": 9.0,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 16,
+  "start": 98.0,
+  "duration": 4.33,
+  "room": 7.42,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 17,
+  "start": 108.4,
+  "duration": 3.15,
+  "room": 11.1,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 18,
+  "start": 119.5,
+  "duration": 4.68,
+  "room": 6.7,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 19,
+  "start": 126.2,
+  "duration": 3.92,
+  "room": 6.3,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 20,
+  "start": 132.5,
+  "duration": 4.9,
+  "room": 5.1,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 21,
+  "start": 137.6,
+  "duration": 4.74,
+  "room": 5.14,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 22,
+  "start": 149.0,
+  "duration": 4.9,
+  "room": 7.0,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 23,
+  "start": 156.0,
+  "duration": 4.63,
+  "room": 9.0,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 24,
+  "start": 165.0,
+  "duration": 4.74,
+  "room": 9.9,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 25,
+  "start": 176.9,
+  "duration": 6.44,
+  "room": 11.1,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 26,
+  "start": 188.0,
+  "duration": 1.57,
+  "room": 6.5,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 27,
+  "start": 194.5,
+  "duration": 7.47,
+  "room": 19.1,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 28,
+  "start": 214.5,
+  "duration": 6.92,
+  "room": 28.26,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ },
+ {
+  "block": 29,
+  "start": 245.8,
+  "duration": 9.02,
+  "room": 16.96,
+  "tempo": 1.0,
+  "overflow": 0.0,
+  "freeze": false
+ }
+]

@@ -1,0 +1,169 @@
+{
+ "title": "Coffee Run – audiodeskripcia",
+ "blocks": [
+  {
+   "start": 0.0,
+   "end": 5.4,
+   "text": "Animovaný film bez slov, iba s hudbou. Nápis: Blender Animation Studio uvádza.",
+   "tts": "Animovaný film bez slov, iba s hudbou. Nápis: Blender Animejšn Stúdio uvádza."
+  },
+  {
+   "start": 5.4,
+   "end": 7.0,
+   "text": "Názov: Coffee Run.",
+   "tts": "Názov: Kofí ran."
+  },
+  {
+   "start": 7.0,
+   "end": 11.5,
+   "text": "Žena s tyrkysovým vrkočom a kávou v ruke beží dolu strmou strechou."
+  },
+  {
+   "start": 11.5,
+   "end": 15.3,
+   "text": "Vrazí do bytu so škatuľami. Na gauči sedí jej dvojníčka."
+  },
+  {
+   "start": 15.3,
+   "end": 19.8,
+   "text": "Budova s krížom, nemocnica. Ryšavý muž sedí pri lôžku dvojníčky."
+  },
+  {
+   "start": 19.8,
+   "end": 22.3,
+   "text": "Bežkyňa beží chodbou a rozbije okno."
+  },
+  {
+   "start": 22.3,
+   "end": 25.5,
+   "text": "Terasa reštaurácie. Pri stole dvojníčka s mužom."
+  },
+  {
+   "start": 25.5,
+   "end": 29.3,
+   "text": "Bežkyňa strhne obrus a plachtí s ním nad ruským kolesom."
+  },
+  {
+   "start": 29.3,
+   "end": 32.8,
+   "text": "Kostol, svadba: dvojníčka v bielom, muž v červenom."
+  },
+  {
+   "start": 32.8,
+   "end": 37.5,
+   "text": "Cintorín v daždi. Dvojníčka a muž v čiernom pod dáždnikom pri hrobe."
+  },
+  {
+   "start": 37.5,
+   "end": 42.7,
+   "text": "Park. Pár pri bielom kočíku. Bežkyňa naskočí do kočíka a uháňa dolu schodmi."
+  },
+  {
+   "start": 42.7,
+   "end": 45.0,
+   "text": "Vyletí z kočíka vysoko nad mesto."
+  },
+  {
+   "start": 45.0,
+   "end": 47.6,
+   "text": "Kaviareň. Bežkyňa sa nakloní cez pult."
+  },
+  {
+   "start": 47.6,
+   "end": 51.7,
+   "text": "Pri stolíku si muž kľakne na koleno pred dvojníčku."
+  },
+  {
+   "start": 51.7,
+   "end": 55.9,
+   "text": "Bežkyňa ich pozoruje a pije kávu."
+  },
+  {
+   "start": 55.9,
+   "end": 60.5,
+   "text": "Obraz praskne ako sklo a ona znova beží dolu strechou."
+  },
+  {
+   "start": 60.5,
+   "text": "Druhé kolo, rovnaké ako prvé: byt so škatuľami, nemocnica, terasa reštaurácie.",
+   "end": 79.3
+  },
+  {
+   "start": 79.3,
+   "text": "Znova svadba, cintorín v daždi a park s kočíkom.",
+   "end": 88.5
+  },
+  {
+   "start": 88.5,
+   "text": "Opäť letí nad mestom.",
+   "end": 96.5
+  },
+  {
+   "start": 96.5,
+   "end": 107.0,
+   "text": "Znova kaviareň. Muž opäť kľačí pred dvojníčkou, bežkyňa pri pulte pije."
+  },
+  {
+   "start": 107.0,
+   "end": 112.0,
+   "text": "Obraz znova praskne. Tretí beh."
+  },
+  {
+   "start": 112.0,
+   "text": "Tretie kolo: byt so škatuľami, nemocnica.",
+   "end": 118.0
+  },
+  {
+   "start": 118.0,
+   "text": "V nemocnici je teraz dvojníčka pri lôžku sama, muž chýba.",
+   "end": 122.5
+  },
+  {
+   "start": 122.5,
+   "text": "Terasa reštaurácie a svadba ako predtým.",
+   "end": 133.0
+  },
+  {
+   "start": 133.0,
+   "end": 137.4,
+   "text": "Cintorín. Teraz dvojníčka kľačí pri hrobe sama, muž stojí bokom."
+  },
+  {
+   "start": 137.4,
+   "end": 144.0,
+   "text": "V parku stojí muž sám pri kočíku, dvojníčka odchádza na skateboarde. Obraz praská."
+  },
+  {
+   "start": 144.0,
+   "end": 147.6,
+   "text": "Bežkyňa preletí oknom do kaviarne a dopadne na zem."
+  },
+  {
+   "start": 147.6,
+   "end": 152.0,
+   "text": "Vstane a oprie sa o pult. Muž si znova kľakne pred dvojníčku."
+  },
+  {
+   "start": 152.0,
+   "end": 155.2,
+   "text": "Bežkyňa pije. Dvojníčka a muž blednú a miznú."
+  },
+  {
+   "start": 155.2,
+   "end": 164.0,
+   "text": "Tmavý byt. Bežkyňa sedí sama v kresle so sklonenou hlavou, v rukách kelímok. Okolo nôh desiatky prázdnych kelímkov od kávy."
+  },
+  {
+   "start": 164.0,
+   "end": 177.6,
+   "text": "Titulky. Réžia: Hjalti Hjálmarsson. Produkcia: Francesco Siddi. Hudba: Hrafn Thoroddsen.",
+   "tts": "Titulky. Réžia: Jalti Jaulmarsson. Produkcia: Frančesko Siddi. Hudba: Hrafn Torodsen."
+  },
+  {
+   "start": 177.6,
+   "end": 184.7,
+   "text": "Licencia Creative Commons Attribution 4.0.",
+   "tts": "Licencia Kriejtiv Komons Atribjúšn štyri nula."
+  }
+ ]
+}

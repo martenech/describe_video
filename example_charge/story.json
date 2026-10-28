@@ -1,0 +1,248 @@
+{
+ "source": "vrstva 2 – nezávislý kolega len z textu logu (1. verzia, pred cieleným pozretím); odpovede na otázky sú v LOGu (zdroj ciel); otázky a segments = výstup tej istej vrstvy (16 otázok, skrátené); príbeh sa po cielenom pozretí znova negeneroval – odpovede sú len v logu",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 6.7,
+   "events": "Logo Blender, tma."
+  },
+  {
+   "start": 6.7,
+   "end": 23.6,
+   "place": "dielňa so sviečkami",
+   "present": [
+    "starec",
+    "malý robot"
+   ],
+   "events": "Displej malého robota ukazuje takmer vybitú batériu. Starec pri stole kreslí kružidlom po technických výkresoch a prezerá si súčiastku."
+  },
+  {
+   "start": 23.6,
+   "end": 34.2,
+   "events": "Starec ide nocou hmlistou krajinou k obrovskej stavbe, prekoná bránu s plotom a dostane sa dnu."
+  },
+  {
+   "start": 34.2,
+   "end": 41.0,
+   "events": "Nastrieka ružový sprej na bezpečnostnú kameru. V strážnici ukradne strážnikovi (nápis VÖRÐUR) preukaz."
+  },
+  {
+   "start": 41.0,
+   "end": 59.0,
+   "events": "Preukazom otvorí halu a vezme zo stojana zeleno svietiacu batériu."
+  },
+  {
+   "start": 59.0,
+   "end": 88.0,
+   "events": "Príde bezpečnostný robot, strieľa lúčom; starec sa skrýva; halu zaplní tyrkysový dym s výbojmi."
+  },
+  {
+   "start": 88.0,
+   "end": 137.0,
+   "events": "Zápas; starec je zranený, nakoniec robota zničí a odchádza."
+  },
+  {
+   "start": 137.0,
+   "end": 149.0,
+   "events": "Hala horí, starec na svahu s batériou pozerá späť."
+  },
+  {
+   "start": 149.0,
+   "end": 188.0,
+   "events": "Doma pri kozube vloží batériu malému robotovi; sedia spolu pri ohni."
+  },
+  {
+   "start": 188.0,
+   "end": 262.8,
+   "events": "Titul CHARGE, záverečné titulky so zábermi z výroby."
+  }
+ ],
+ "characters": [
+  {
+   "name": "starec",
+   "last_state": "Zranený, sedí pri ohni s oživeným malým robotom."
+  },
+  {
+   "name": "malý robot",
+   "last_state": "Nabitý, sedí pri starcovi."
+  },
+  {
+   "name": "strážnik",
+   "last_state": "Po krádeži preukazu sa už neobjaví."
+  },
+  {
+   "name": "bezpečnostný robot",
+   "last_state": "Zničený v hale, ktorá horí."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Je nastriekaná šesťhranná vec kamera, alebo hlava robota? Odkiaľ má robot ružovú farbu?",
+   "start": 33,
+   "end": 41,
+   "importance": 1
+  },
+  {
+   "question": "Ako starec zničí bezpečnostného robota, čo spôsobí iskry pri 2:02?",
+   "start": 120,
+   "end": 135,
+   "importance": 1
+  },
+  {
+   "question": "Ako začne hala horieť?",
+   "start": 125,
+   "end": 140,
+   "importance": 1
+  },
+  {
+   "question": "Priebeh zápasu: kto koho drží, ako sa starec zraní?",
+   "start": 88,
+   "end": 102,
+   "importance": 2
+  },
+  {
+   "question": "Kto drží hasák pri 1:47?",
+   "start": 102,
+   "end": 116,
+   "importance": 2
+  },
+  {
+   "question": "Je ikona na displeji malého robota vybitá batéria?",
+   "start": 7,
+   "end": 16,
+   "importance": 2
+  },
+  {
+   "question": "Ako sa starec dostane cez plot a dnu?",
+   "start": 28,
+   "end": 35,
+   "importance": 2
+  },
+  {
+   "question": "Čo otvorí preukazom pri 0:42?",
+   "start": 41,
+   "end": 56,
+   "importance": 2
+  },
+  {
+   "question": "Spôsobil tyrkysový dym starec?",
+   "start": 78,
+   "end": 88,
+   "importance": 2
+  },
+  {
+   "question": "Ožije malý robot po vložení batérie?",
+   "start": 165,
+   "end": 180,
+   "importance": 2
+  },
+  {
+   "question": "Je postava v krajine starec?",
+   "start": 23,
+   "end": 29,
+   "importance": 3
+  },
+  {
+   "question": "Čo drží starec v rukách pri 0:20?",
+   "start": 17,
+   "end": 23,
+   "importance": 3
+  },
+  {
+   "question": "Je červený sprej na stole ten istý ako ružový na kamere?",
+   "start": 16,
+   "end": 37,
+   "importance": 3
+  },
+  {
+   "question": "Všimne si strážnik krádež preukazu?",
+   "start": 36,
+   "end": 41,
+   "importance": 3
+  },
+  {
+   "question": "Sú útržky 'foreign' / 'all right' v prepise reč, alebo chyba prepisu?",
+   "start": 37,
+   "end": 42,
+   "importance": 3
+  },
+  {
+   "question": "Držia sa starec a malý robot za ruky?",
+   "start": 176,
+   "end": 188,
+   "importance": 3
+  }
+ ],
+ "segments": [
+  {
+   "start": 33,
+   "end": 41,
+   "reason": "príbeh: pôvod ružovej farby na robotovi",
+   "suggested_fps": 4,
+   "what_to_find": "Je nastriekaná šesťhranná vec kamera na stene, alebo hlava bezpečnostného robota?"
+  },
+  {
+   "start": 120,
+   "end": 135,
+   "reason": "príbeh: zničenie robota",
+   "suggested_fps": 3,
+   "what_to_find": "Čo spôsobí iskry pri 2:02, ako je robot zničený a prečo starec drží jeho ruku."
+  },
+  {
+   "start": 135,
+   "end": 141,
+   "reason": "príbeh: pôvod požiaru",
+   "suggested_fps": 2,
+   "what_to_find": "Kedy a čím začne hala horieť."
+  },
+  {
+   "start": 88,
+   "end": 102,
+   "reason": "príbeh: priebeh zápasu",
+   "suggested_fps": 3,
+   "what_to_find": "Kto koho drží, čo sa deje na páse, kedy a ako sa starec zraní."
+  },
+  {
+   "start": 102,
+   "end": 116,
+   "reason": "príbeh: priebeh zápasu",
+   "suggested_fps": 3,
+   "what_to_find": "Kto drží hasák pri 1:47 a ako sa starec bráni."
+  },
+  {
+   "start": 7,
+   "end": 16,
+   "reason": "príbeh: motivácia",
+   "suggested_fps": 2,
+   "what_to_find": "Je ikona na displeji malého robota vybitá batéria?"
+  },
+  {
+   "start": 28,
+   "end": 35,
+   "reason": "príbeh: vniknutie do areálu",
+   "suggested_fps": 3,
+   "what_to_find": "Ako starec prekoná plot a čo je na záberoch 0:32–0:34."
+  },
+  {
+   "start": 41,
+   "end": 56,
+   "reason": "príbeh: použitie preukazu",
+   "suggested_fps": 2,
+   "what_to_find": "Čo otvorí preukazom pri 0:42 a kam batériu schová."
+  },
+  {
+   "start": 78,
+   "end": 88,
+   "reason": "príbeh: pôvod dymu",
+   "suggested_fps": 2,
+   "what_to_find": "Spôsobil dym a výboje starec?"
+  },
+  {
+   "start": 165,
+   "end": 180,
+   "reason": "príbeh: oživenie malého robota",
+   "suggested_fps": 2,
+   "what_to_find": "Rozsvietia sa robotovi oči alebo sa pohne po vložení batérie?"
+  }
+ ]
+}

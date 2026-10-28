@@ -1,0 +1,36 @@
+{
+ "characters": [
+  {
+   "name": "starec",
+   "appearance": "starý muž so sivou bradou, pletená čiapka, záplatovaná bunda, mechanická rukavica na pravej ruke",
+   "first_seen": 14.6,
+   "name_source": "meno v titulkoch ani v reči nie je – označenie",
+   "confidence": 0.95,
+   "voice": "bez reči"
+  },
+  {
+   "name": "malý robot",
+   "appearance": "malý hrdzavý robot s okrúhlymi očami a displejom s ikonou batérie",
+   "first_seen": 8.3,
+   "name_source": "označenie",
+   "confidence": 0.8,
+   "voice": "-"
+  },
+  {
+   "name": "strážnik",
+   "appearance": "muž v bielej uniforme so služobným preukazom, sedí pri monitoroch",
+   "first_seen": 37.0,
+   "name_source": "na košeli nápis VÖRÐUR (islandsky strážca)",
+   "confidence": 0.85,
+   "voice": "-"
+  },
+  {
+   "name": "bezpečnostný robot",
+   "appearance": "biely humanoidný robot so šesťhrannou hlavou a červeným okom, neskôr postriekaný ružovou farbou",
+   "first_seen": 62.9,
+   "name_source": "označenie",
+   "confidence": 0.9,
+   "voice": "-"
+  }
+ ]
+}

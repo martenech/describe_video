@@ -1,0 +1,2098 @@
+{
+ "video": "video.mp4",
+ "duration": 184.691519,
+ "info": {
+  "title": "Coffee Run - Blender Open Movie",
+  "channel": "Blender Studio",
+  "license": null,
+  "duration": 185,
+  "webpage_url": "https://www.youtube.com/watch?v=PVGeM40dABA",
+  "description": "Fueled by caffeine, a young woman runs through the bittersweet memories of her past relationship. Get the production files, assets, tutorials and exclusive making-of videos by joining Blender Cloud at https://cloud.blender.org/p/coffee-run\n\nFollow Blender Cloud\n* Twitter: https://twitter.com/blender_cloud\n* Facebook: https://www.facebook.com/BlenderCloudOfficial/\n\nFollow Blender\n* Twitter: https://twitter.com/blender_org\n* Instagram: https://instagram.com/blender.official\n* Facebook: https://www.facebook.com/YourOwn3DSoftware/"
+ },
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 10.67,
+   "kind": "start"
+  },
+  {
+   "start": 10.67,
+   "end": 21.71,
+   "kind": "cut"
+  },
+  {
+   "start": 21.71,
+   "end": 28.12,
+   "kind": "cut"
+  },
+  {
+   "start": 28.12,
+   "end": 37.54,
+   "kind": "cut"
+  },
+  {
+   "start": 37.54,
+   "end": 44.62,
+   "kind": "cut"
+  },
+  {
+   "start": 44.62,
+   "end": 56.62,
+   "kind": "cut"
+  },
+  {
+   "start": 56.62,
+   "end": 60.88,
+   "kind": "cut"
+  },
+  {
+   "start": 60.88,
+   "end": 71.92,
+   "kind": "cut"
+  },
+  {
+   "start": 71.92,
+   "end": 78.33,
+   "kind": "cut"
+  },
+  {
+   "start": 78.33,
+   "end": 87.75,
+   "kind": "cut"
+  },
+  {
+   "start": 87.75,
+   "end": 94.83,
+   "kind": "cut"
+  },
+  {
+   "start": 94.83,
+   "end": 106.83,
+   "kind": "cut"
+  },
+  {
+   "start": 106.83,
+   "end": 111.08,
+   "kind": "cut"
+  },
+  {
+   "start": 111.08,
+   "end": 122.12,
+   "kind": "cut"
+  },
+  {
+   "start": 122.12,
+   "end": 128.54,
+   "kind": "cut"
+  },
+  {
+   "start": 128.54,
+   "end": 137.96,
+   "kind": "cut"
+  },
+  {
+   "start": 137.96,
+   "end": 145.04,
+   "kind": "cut"
+  },
+  {
+   "start": 145.04,
+   "end": 145.5,
+   "kind": "cut"
+  },
+  {
+   "start": 145.5,
+   "end": 161.0,
+   "kind": "cut"
+  },
+  {
+   "start": 161.0,
+   "end": 162.58,
+   "kind": "cut"
+  },
+  {
+   "start": 162.58,
+   "end": 164.12,
+   "kind": "fade"
+  },
+  {
+   "start": 164.12,
+   "end": 167.21,
+   "kind": "cut"
+  },
+  {
+   "start": 167.21,
+   "end": 170.04,
+   "kind": "cut"
+  },
+  {
+   "start": 170.04,
+   "end": 173.21,
+   "kind": "cut"
+  },
+  {
+   "start": 173.21,
+   "end": 176.08,
+   "kind": "cut"
+  },
+  {
+   "start": 176.08,
+   "end": 179.12,
+   "kind": "cut"
+  },
+  {
+   "start": 179.12,
+   "end": 184.69,
+   "kind": "cut"
+  }
+ ],
+ "speech_gaps": [
+  {
+   "start": 0.0,
+   "end": 184.69
+  }
+ ],
+ "overview": [
+  {
+   "grid": 1,
+   "file": "grids/overview_01.jpg",
+   "header": "overview 1: 00:01.8 – 00:54.6  (16 frames)",
+   "cells": [
+    {
+     "index": 1,
+     "time": 1.78,
+     "time_text": "00:01.8",
+     "scene": 1
+    },
+    {
+     "index": 2,
+     "time": 5.33,
+     "time_text": "00:05.3",
+     "scene": 1
+    },
+    {
+     "index": 3,
+     "time": 8.89,
+     "time_text": "00:08.9",
+     "scene": 1
+    },
+    {
+     "index": 4,
+     "time": 12.51,
+     "time_text": "00:12.5",
+     "scene": 2
+    },
+    {
+     "index": 5,
+     "time": 16.19,
+     "time_text": "00:16.2",
+     "scene": 2
+    },
+    {
+     "index": 6,
+     "time": 19.87,
+     "time_text": "00:19.9",
+     "scene": 2
+    },
+    {
+     "index": 7,
+     "time": 23.31,
+     "time_text": "00:23.3",
+     "scene": 3
+    },
+    {
+     "index": 8,
+     "time": 26.52,
+     "time_text": "00:26.5",
+     "scene": 3
+    },
+    {
+     "index": 9,
+     "time": 29.69,
+     "time_text": "00:29.7",
+     "scene": 4
+    },
+    {
+     "index": 10,
+     "time": 32.83,
+     "time_text": "00:32.8",
+     "scene": 4
+    },
+    {
+     "index": 11,
+     "time": 35.97,
+     "time_text": "00:36.0",
+     "scene": 4
+    },
+    {
+     "index": 12,
+     "time": 39.31,
+     "time_text": "00:39.3",
+     "scene": 5
+    },
+    {
+     "index": 13,
+     "time": 42.85,
+     "time_text": "00:42.8",
+     "scene": 5
+    },
+    {
+     "index": 14,
+     "time": 46.62,
+     "time_text": "00:46.6",
+     "scene": 6
+    },
+    {
+     "index": 15,
+     "time": 50.62,
+     "time_text": "00:50.6",
+     "scene": 6
+    },
+    {
+     "index": 16,
+     "time": 54.62,
+     "time_text": "00:54.6",
+     "scene": 6
+    }
+   ]
+  },
+  {
+   "grid": 2,
+   "file": "grids/overview_02.jpg",
+   "header": "overview 2: 00:58.8 – 01:52.9  (16 frames)",
+   "cells": [
+    {
+     "index": 1,
+     "time": 58.75,
+     "time_text": "00:58.8",
+     "scene": 7
+    },
+    {
+     "index": 2,
+     "time": 62.72,
+     "time_text": "01:02.7",
+     "scene": 8
+    },
+    {
+     "index": 3,
+     "time": 66.4,
+     "time_text": "01:06.4",
+     "scene": 8
+    },
+    {
+     "index": 4,
+     "time": 70.08,
+     "time_text": "01:10.1",
+     "scene": 8
+    },
+    {
+     "index": 5,
+     "time": 73.52,
+     "time_text": "01:13.5",
+     "scene": 9
+    },
+    {
+     "index": 6,
+     "time": 76.73,
+     "time_text": "01:16.7",
+     "scene": 9
+    },
+    {
+     "index": 7,
+     "time": 79.9,
+     "time_text": "01:19.9",
+     "scene": 10
+    },
+    {
+     "index": 8,
+     "time": 83.04,
+     "time_text": "01:23.0",
+     "scene": 10
+    },
+    {
+     "index": 9,
+     "time": 86.18,
+     "time_text": "01:26.2",
+     "scene": 10
+    },
+    {
+     "index": 10,
+     "time": 89.52,
+     "time_text": "01:29.5",
+     "scene": 11
+    },
+    {
+     "index": 11,
+     "time": 93.06,
+     "time_text": "01:33.1",
+     "scene": 11
+    },
+    {
+     "index": 12,
+     "time": 96.83,
+     "time_text": "01:36.8",
+     "scene": 12
+    },
+    {
+     "index": 13,
+     "time": 100.83,
+     "time_text": "01:40.8",
+     "scene": 12
+    },
+    {
+     "index": 14,
+     "time": 104.83,
+     "time_text": "01:44.8",
+     "scene": 12
+    },
+    {
+     "index": 15,
+     "time": 108.95,
+     "time_text": "01:49.0",
+     "scene": 13
+    },
+    {
+     "index": 16,
+     "time": 112.92,
+     "time_text": "01:52.9",
+     "scene": 14
+    }
+   ]
+  },
+  {
+   "grid": 3,
+   "file": "grids/overview_03.jpg",
+   "header": "overview 3: 01:56.6 – 02:43.4  (16 frames)",
+   "cells": [
+    {
+     "index": 1,
+     "time": 116.6,
+     "time_text": "01:56.6",
+     "scene": 14
+    },
+    {
+     "index": 2,
+     "time": 120.28,
+     "time_text": "02:00.3",
+     "scene": 14
+    },
+    {
+     "index": 3,
+     "time": 123.72,
+     "time_text": "02:03.7",
+     "scene": 15
+    },
+    {
+     "index": 4,
+     "time": 126.94,
+     "time_text": "02:06.9",
+     "scene": 15
+    },
+    {
+     "index": 5,
+     "time": 130.11,
+     "time_text": "02:10.1",
+     "scene": 16
+    },
+    {
+     "index": 6,
+     "time": 133.25,
+     "time_text": "02:13.2",
+     "scene": 16
+    },
+    {
+     "index": 7,
+     "time": 136.39,
+     "time_text": "02:16.4",
+     "scene": 16
+    },
+    {
+     "index": 8,
+     "time": 139.73,
+     "time_text": "02:19.7",
+     "scene": 17
+    },
+    {
+     "index": 9,
+     "time": 143.27,
+     "time_text": "02:23.3",
+     "scene": 17
+    },
+    {
+     "index": 10,
+     "time": 145.27,
+     "time_text": "02:25.3",
+     "scene": 18
+    },
+    {
+     "index": 11,
+     "time": 147.44,
+     "time_text": "02:27.4",
+     "scene": 19
+    },
+    {
+     "index": 12,
+     "time": 151.31,
+     "time_text": "02:31.3",
+     "scene": 19
+    },
+    {
+     "index": 13,
+     "time": 155.19,
+     "time_text": "02:35.2",
+     "scene": 19
+    },
+    {
+     "index": 14,
+     "time": 159.06,
+     "time_text": "02:39.1",
+     "scene": 19
+    },
+    {
+     "index": 15,
+     "time": 161.79,
+     "time_text": "02:41.8",
+     "scene": 20
+    },
+    {
+     "index": 16,
+     "time": 163.35,
+     "time_text": "02:43.4",
+     "scene": 21
+    }
+   ]
+  },
+  {
+   "grid": 4,
+   "file": "grids/overview_04.jpg",
+   "header": "overview 4: 02:45.7 – 03:01.9  (6 frames)",
+   "cells": [
+    {
+     "index": 1,
+     "time": 165.67,
+     "time_text": "02:45.7",
+     "scene": 22
+    },
+    {
+     "index": 2,
+     "time": 168.62,
+     "time_text": "02:48.6",
+     "scene": 23
+    },
+    {
+     "index": 3,
+     "time": 171.62,
+     "time_text": "02:51.6",
+     "scene": 24
+    },
+    {
+     "index": 4,
+     "time": 174.65,
+     "time_text": "02:54.6",
+     "scene": 25
+    },
+    {
+     "index": 5,
+     "time": 177.6,
+     "time_text": "02:57.6",
+     "scene": 26
+    },
+    {
+     "index": 6,
+     "time": 181.91,
+     "time_text": "03:01.9",
+     "scene": 27
+    }
+   ]
+  }
+ ],
+ "detail": [
+  {
+   "start": 10.7,
+   "end": 16.5,
+   "reason": "nejasná akcia",
+   "suggested_fps": 2,
+   "what_to_find": "byt so škatuľami a ružová miestnosť – kto tam je a čo robí",
+   "actual_fps": 2.07,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail01_01.jpg",
+     "header": "detail01 1: 00:10.9 – 00:16.3  (12 snímok, 2.1 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 10.94,
+       "time_text": "00:10.9",
+       "scene": 2
+      },
+      {
+       "index": 2,
+       "time": 11.42,
+       "time_text": "00:11.4",
+       "scene": 2
+      },
+      {
+       "index": 3,
+       "time": 11.91,
+       "time_text": "00:11.9",
+       "scene": 2
+      },
+      {
+       "index": 4,
+       "time": 12.39,
+       "time_text": "00:12.4",
+       "scene": 2
+      },
+      {
+       "index": 5,
+       "time": 12.88,
+       "time_text": "00:12.9",
+       "scene": 2
+      },
+      {
+       "index": 6,
+       "time": 13.36,
+       "time_text": "00:13.4",
+       "scene": 2
+      },
+      {
+       "index": 7,
+       "time": 13.84,
+       "time_text": "00:13.8",
+       "scene": 2
+      },
+      {
+       "index": 8,
+       "time": 14.32,
+       "time_text": "00:14.3",
+       "scene": 2
+      },
+      {
+       "index": 9,
+       "time": 14.81,
+       "time_text": "00:14.8",
+       "scene": 2
+      },
+      {
+       "index": 10,
+       "time": 15.29,
+       "time_text": "00:15.3",
+       "scene": 2
+      },
+      {
+       "index": 11,
+       "time": 15.78,
+       "time_text": "00:15.8",
+       "scene": 2
+      },
+      {
+       "index": 12,
+       "time": 16.26,
+       "time_text": "00:16.3",
+       "scene": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 16.5,
+   "end": 22.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 2,
+   "what_to_find": "ordinácia a tmavá chodba – čo sa tam deje, kto je v kresle",
+   "actual_fps": 2.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail02_01.jpg",
+     "header": "detail02 1: 00:16.8 – 00:21.8  (11 snímok, 2.0 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 16.75,
+       "time_text": "00:16.8",
+       "scene": 2
+      },
+      {
+       "index": 2,
+       "time": 17.25,
+       "time_text": "00:17.2",
+       "scene": 2
+      },
+      {
+       "index": 3,
+       "time": 17.75,
+       "time_text": "00:17.8",
+       "scene": 2
+      },
+      {
+       "index": 4,
+       "time": 18.25,
+       "time_text": "00:18.2",
+       "scene": 2
+      },
+      {
+       "index": 5,
+       "time": 18.75,
+       "time_text": "00:18.8",
+       "scene": 2
+      },
+      {
+       "index": 6,
+       "time": 19.25,
+       "time_text": "00:19.2",
+       "scene": 2
+      },
+      {
+       "index": 7,
+       "time": 19.75,
+       "time_text": "00:19.8",
+       "scene": 2
+      },
+      {
+       "index": 8,
+       "time": 20.25,
+       "time_text": "00:20.2",
+       "scene": 2
+      },
+      {
+       "index": 9,
+       "time": 20.75,
+       "time_text": "00:20.8",
+       "scene": 2
+      },
+      {
+       "index": 10,
+       "time": 21.25,
+       "time_text": "00:21.2",
+       "scene": 2
+      },
+      {
+       "index": 11,
+       "time": 21.75,
+       "time_text": "00:21.8",
+       "scene": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 22.0,
+   "end": 28.0,
+   "reason": "rýchly pohyb",
+   "suggested_fps": 3,
+   "what_to_find": "reštaurácia a balón nad ruským kolesom",
+   "actual_fps": 3.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail03_01.jpg",
+     "header": "detail03 1: 00:22.2 – 00:27.2  (16 snímok, 3.0 fps, rýchly pohyb)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 22.17,
+       "time_text": "00:22.2",
+       "scene": 3
+      },
+      {
+       "index": 2,
+       "time": 22.5,
+       "time_text": "00:22.5",
+       "scene": 3
+      },
+      {
+       "index": 3,
+       "time": 22.83,
+       "time_text": "00:22.8",
+       "scene": 3
+      },
+      {
+       "index": 4,
+       "time": 23.17,
+       "time_text": "00:23.2",
+       "scene": 3
+      },
+      {
+       "index": 5,
+       "time": 23.5,
+       "time_text": "00:23.5",
+       "scene": 3
+      },
+      {
+       "index": 6,
+       "time": 23.83,
+       "time_text": "00:23.8",
+       "scene": 3
+      },
+      {
+       "index": 7,
+       "time": 24.17,
+       "time_text": "00:24.2",
+       "scene": 3
+      },
+      {
+       "index": 8,
+       "time": 24.5,
+       "time_text": "00:24.5",
+       "scene": 3
+      },
+      {
+       "index": 9,
+       "time": 24.83,
+       "time_text": "00:24.8",
+       "scene": 3
+      },
+      {
+       "index": 10,
+       "time": 25.17,
+       "time_text": "00:25.2",
+       "scene": 3
+      },
+      {
+       "index": 11,
+       "time": 25.5,
+       "time_text": "00:25.5",
+       "scene": 3
+      },
+      {
+       "index": 12,
+       "time": 25.83,
+       "time_text": "00:25.8",
+       "scene": 3
+      },
+      {
+       "index": 13,
+       "time": 26.17,
+       "time_text": "00:26.2",
+       "scene": 3
+      },
+      {
+       "index": 14,
+       "time": 26.5,
+       "time_text": "00:26.5",
+       "scene": 3
+      },
+      {
+       "index": 15,
+       "time": 26.83,
+       "time_text": "00:26.8",
+       "scene": 3
+      },
+      {
+       "index": 16,
+       "time": 27.17,
+       "time_text": "00:27.2",
+       "scene": 3
+      }
+     ]
+    },
+    {
+     "grid": 2,
+     "file": "grids/detail03_02.jpg",
+     "header": "detail03 2: 00:27.5 – 00:27.8  (2 snímok, 3.0 fps, rýchly pohyb)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 27.5,
+       "time_text": "00:27.5",
+       "scene": 3
+      },
+      {
+       "index": 2,
+       "time": 27.83,
+       "time_text": "00:27.8",
+       "scene": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 28.0,
+   "end": 36.0,
+   "reason": "veľa postáv",
+   "suggested_fps": 2,
+   "what_to_find": "kto sa žení v kostole a kto stojí pri hrobe",
+   "actual_fps": 2.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail04_01.jpg",
+     "header": "detail04 1: 00:28.2 – 00:35.8  (16 snímok, 2.0 fps, veľa postáv)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 28.25,
+       "time_text": "00:28.2",
+       "scene": 4
+      },
+      {
+       "index": 2,
+       "time": 28.75,
+       "time_text": "00:28.8",
+       "scene": 4
+      },
+      {
+       "index": 3,
+       "time": 29.25,
+       "time_text": "00:29.2",
+       "scene": 4
+      },
+      {
+       "index": 4,
+       "time": 29.75,
+       "time_text": "00:29.8",
+       "scene": 4
+      },
+      {
+       "index": 5,
+       "time": 30.25,
+       "time_text": "00:30.2",
+       "scene": 4
+      },
+      {
+       "index": 6,
+       "time": 30.75,
+       "time_text": "00:30.8",
+       "scene": 4
+      },
+      {
+       "index": 7,
+       "time": 31.25,
+       "time_text": "00:31.2",
+       "scene": 4
+      },
+      {
+       "index": 8,
+       "time": 31.75,
+       "time_text": "00:31.8",
+       "scene": 4
+      },
+      {
+       "index": 9,
+       "time": 32.25,
+       "time_text": "00:32.2",
+       "scene": 4
+      },
+      {
+       "index": 10,
+       "time": 32.75,
+       "time_text": "00:32.8",
+       "scene": 4
+      },
+      {
+       "index": 11,
+       "time": 33.25,
+       "time_text": "00:33.2",
+       "scene": 4
+      },
+      {
+       "index": 12,
+       "time": 33.75,
+       "time_text": "00:33.8",
+       "scene": 4
+      },
+      {
+       "index": 13,
+       "time": 34.25,
+       "time_text": "00:34.2",
+       "scene": 4
+      },
+      {
+       "index": 14,
+       "time": 34.75,
+       "time_text": "00:34.8",
+       "scene": 4
+      },
+      {
+       "index": 15,
+       "time": 35.25,
+       "time_text": "00:35.2",
+       "scene": 4
+      },
+      {
+       "index": 16,
+       "time": 35.75,
+       "time_text": "00:35.8",
+       "scene": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 36.0,
+   "end": 44.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 2,
+   "what_to_find": "park s kočíkom, let nad mestom – čo je ten biely predmet",
+   "actual_fps": 2.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail05_01.jpg",
+     "header": "detail05 1: 00:36.2 – 00:43.8  (16 snímok, 2.0 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 36.25,
+       "time_text": "00:36.2",
+       "scene": 4
+      },
+      {
+       "index": 2,
+       "time": 36.75,
+       "time_text": "00:36.8",
+       "scene": 4
+      },
+      {
+       "index": 3,
+       "time": 37.25,
+       "time_text": "00:37.2",
+       "scene": 4
+      },
+      {
+       "index": 4,
+       "time": 37.75,
+       "time_text": "00:37.8",
+       "scene": 5
+      },
+      {
+       "index": 5,
+       "time": 38.25,
+       "time_text": "00:38.2",
+       "scene": 5
+      },
+      {
+       "index": 6,
+       "time": 38.75,
+       "time_text": "00:38.8",
+       "scene": 5
+      },
+      {
+       "index": 7,
+       "time": 39.25,
+       "time_text": "00:39.2",
+       "scene": 5
+      },
+      {
+       "index": 8,
+       "time": 39.75,
+       "time_text": "00:39.8",
+       "scene": 5
+      },
+      {
+       "index": 9,
+       "time": 40.25,
+       "time_text": "00:40.2",
+       "scene": 5
+      },
+      {
+       "index": 10,
+       "time": 40.75,
+       "time_text": "00:40.8",
+       "scene": 5
+      },
+      {
+       "index": 11,
+       "time": 41.25,
+       "time_text": "00:41.2",
+       "scene": 5
+      },
+      {
+       "index": 12,
+       "time": 41.75,
+       "time_text": "00:41.8",
+       "scene": 5
+      },
+      {
+       "index": 13,
+       "time": 42.25,
+       "time_text": "00:42.2",
+       "scene": 5
+      },
+      {
+       "index": 14,
+       "time": 42.75,
+       "time_text": "00:42.8",
+       "scene": 5
+      },
+      {
+       "index": 15,
+       "time": 43.25,
+       "time_text": "00:43.2",
+       "scene": 5
+      },
+      {
+       "index": 16,
+       "time": 43.75,
+       "time_text": "00:43.8",
+       "scene": 5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 44.6,
+   "end": 50.6,
+   "reason": "veľa postáv",
+   "suggested_fps": 2,
+   "what_to_find": "kaviareň: kto je kto, čo sa stane pri pulte",
+   "actual_fps": 2.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail06_01.jpg",
+     "header": "detail06 1: 00:44.9 – 00:50.4  (12 snímok, 2.0 fps, veľa postáv)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 44.85,
+       "time_text": "00:44.9",
+       "scene": 6
+      },
+      {
+       "index": 2,
+       "time": 45.35,
+       "time_text": "00:45.4",
+       "scene": 6
+      },
+      {
+       "index": 3,
+       "time": 45.85,
+       "time_text": "00:45.9",
+       "scene": 6
+      },
+      {
+       "index": 4,
+       "time": 46.35,
+       "time_text": "00:46.4",
+       "scene": 6
+      },
+      {
+       "index": 5,
+       "time": 46.85,
+       "time_text": "00:46.9",
+       "scene": 6
+      },
+      {
+       "index": 6,
+       "time": 47.35,
+       "time_text": "00:47.4",
+       "scene": 6
+      },
+      {
+       "index": 7,
+       "time": 47.85,
+       "time_text": "00:47.9",
+       "scene": 6
+      },
+      {
+       "index": 8,
+       "time": 48.35,
+       "time_text": "00:48.4",
+       "scene": 6
+      },
+      {
+       "index": 9,
+       "time": 48.85,
+       "time_text": "00:48.9",
+       "scene": 6
+      },
+      {
+       "index": 10,
+       "time": 49.35,
+       "time_text": "00:49.4",
+       "scene": 6
+      },
+      {
+       "index": 11,
+       "time": 49.85,
+       "time_text": "00:49.9",
+       "scene": 6
+      },
+      {
+       "index": 12,
+       "time": 50.35,
+       "time_text": "00:50.4",
+       "scene": 6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 50.6,
+   "end": 58.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 2,
+   "what_to_find": "kaviareň: žiadosť o ruku? ako sa kolo vráti na svah",
+   "actual_fps": 2.03,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail07_01.jpg",
+     "header": "detail07 1: 00:50.8 – 00:57.8  (15 snímok, 2.0 fps, dôležitý detail)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 50.85,
+       "time_text": "00:50.8",
+       "scene": 6
+      },
+      {
+       "index": 2,
+       "time": 51.34,
+       "time_text": "00:51.3",
+       "scene": 6
+      },
+      {
+       "index": 3,
+       "time": 51.83,
+       "time_text": "00:51.8",
+       "scene": 6
+      },
+      {
+       "index": 4,
+       "time": 52.33,
+       "time_text": "00:52.3",
+       "scene": 6
+      },
+      {
+       "index": 5,
+       "time": 52.82,
+       "time_text": "00:52.8",
+       "scene": 6
+      },
+      {
+       "index": 6,
+       "time": 53.31,
+       "time_text": "00:53.3",
+       "scene": 6
+      },
+      {
+       "index": 7,
+       "time": 53.81,
+       "time_text": "00:53.8",
+       "scene": 6
+      },
+      {
+       "index": 8,
+       "time": 54.3,
+       "time_text": "00:54.3",
+       "scene": 6
+      },
+      {
+       "index": 9,
+       "time": 54.79,
+       "time_text": "00:54.8",
+       "scene": 6
+      },
+      {
+       "index": 10,
+       "time": 55.29,
+       "time_text": "00:55.3",
+       "scene": 6
+      },
+      {
+       "index": 11,
+       "time": 55.78,
+       "time_text": "00:55.8",
+       "scene": 6
+      },
+      {
+       "index": 12,
+       "time": 56.27,
+       "time_text": "00:56.3",
+       "scene": 6
+      },
+      {
+       "index": 13,
+       "time": 56.77,
+       "time_text": "00:56.8",
+       "scene": 7
+      },
+      {
+       "index": 14,
+       "time": 57.26,
+       "time_text": "00:57.3",
+       "scene": 7
+      },
+      {
+       "index": 15,
+       "time": 57.75,
+       "time_text": "00:57.8",
+       "scene": 7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 131.0,
+   "end": 139.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 2,
+   "what_to_find": "tretie kolo: cintorín a park – rozdiel oproti prvému kolu",
+   "actual_fps": 2.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail08_01.jpg",
+     "header": "detail08 1: 02:11.2 – 02:18.8  (16 snímok, 2.0 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 131.25,
+       "time_text": "02:11.2",
+       "scene": 16
+      },
+      {
+       "index": 2,
+       "time": 131.75,
+       "time_text": "02:11.8",
+       "scene": 16
+      },
+      {
+       "index": 3,
+       "time": 132.25,
+       "time_text": "02:12.2",
+       "scene": 16
+      },
+      {
+       "index": 4,
+       "time": 132.75,
+       "time_text": "02:12.8",
+       "scene": 16
+      },
+      {
+       "index": 5,
+       "time": 133.25,
+       "time_text": "02:13.2",
+       "scene": 16
+      },
+      {
+       "index": 6,
+       "time": 133.75,
+       "time_text": "02:13.8",
+       "scene": 16
+      },
+      {
+       "index": 7,
+       "time": 134.25,
+       "time_text": "02:14.2",
+       "scene": 16
+      },
+      {
+       "index": 8,
+       "time": 134.75,
+       "time_text": "02:14.8",
+       "scene": 16
+      },
+      {
+       "index": 9,
+       "time": 135.25,
+       "time_text": "02:15.2",
+       "scene": 16
+      },
+      {
+       "index": 10,
+       "time": 135.75,
+       "time_text": "02:15.8",
+       "scene": 16
+      },
+      {
+       "index": 11,
+       "time": 136.25,
+       "time_text": "02:16.2",
+       "scene": 16
+      },
+      {
+       "index": 12,
+       "time": 136.75,
+       "time_text": "02:16.8",
+       "scene": 16
+      },
+      {
+       "index": 13,
+       "time": 137.25,
+       "time_text": "02:17.2",
+       "scene": 16
+      },
+      {
+       "index": 14,
+       "time": 137.75,
+       "time_text": "02:17.8",
+       "scene": 16
+      },
+      {
+       "index": 15,
+       "time": 138.25,
+       "time_text": "02:18.2",
+       "scene": 17
+      },
+      {
+       "index": 16,
+       "time": 138.75,
+       "time_text": "02:18.8",
+       "scene": 17
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 144.0,
+   "end": 152.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 2,
+   "what_to_find": "tretie kolo: kaviareň, letiaci kelímok – čo sa stane",
+   "actual_fps": 2.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail09_01.jpg",
+     "header": "detail09 1: 02:24.2 – 02:31.8  (16 snímok, 2.0 fps, dôležitý detail)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 144.25,
+       "time_text": "02:24.2",
+       "scene": 17
+      },
+      {
+       "index": 2,
+       "time": 144.75,
+       "time_text": "02:24.8",
+       "scene": 17
+      },
+      {
+       "index": 3,
+       "time": 145.25,
+       "time_text": "02:25.2",
+       "scene": 18
+      },
+      {
+       "index": 4,
+       "time": 145.75,
+       "time_text": "02:25.8",
+       "scene": 19
+      },
+      {
+       "index": 5,
+       "time": 146.25,
+       "time_text": "02:26.2",
+       "scene": 19
+      },
+      {
+       "index": 6,
+       "time": 146.75,
+       "time_text": "02:26.8",
+       "scene": 19
+      },
+      {
+       "index": 7,
+       "time": 147.25,
+       "time_text": "02:27.2",
+       "scene": 19
+      },
+      {
+       "index": 8,
+       "time": 147.75,
+       "time_text": "02:27.8",
+       "scene": 19
+      },
+      {
+       "index": 9,
+       "time": 148.25,
+       "time_text": "02:28.2",
+       "scene": 19
+      },
+      {
+       "index": 10,
+       "time": 148.75,
+       "time_text": "02:28.8",
+       "scene": 19
+      },
+      {
+       "index": 11,
+       "time": 149.25,
+       "time_text": "02:29.2",
+       "scene": 19
+      },
+      {
+       "index": 12,
+       "time": 149.75,
+       "time_text": "02:29.8",
+       "scene": 19
+      },
+      {
+       "index": 13,
+       "time": 150.25,
+       "time_text": "02:30.2",
+       "scene": 19
+      },
+      {
+       "index": 14,
+       "time": 150.75,
+       "time_text": "02:30.8",
+       "scene": 19
+      },
+      {
+       "index": 15,
+       "time": 151.25,
+       "time_text": "02:31.2",
+       "scene": 19
+      },
+      {
+       "index": 16,
+       "time": 151.75,
+       "time_text": "02:31.8",
+       "scene": 19
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 152.0,
+   "end": 160.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 2,
+   "what_to_find": "koniec: prechod z kaviarne do tmavého bytu",
+   "actual_fps": 2.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail10_01.jpg",
+     "header": "detail10 1: 02:32.2 – 02:39.8  (16 snímok, 2.0 fps, dôležitý detail)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 152.25,
+       "time_text": "02:32.2",
+       "scene": 19
+      },
+      {
+       "index": 2,
+       "time": 152.75,
+       "time_text": "02:32.8",
+       "scene": 19
+      },
+      {
+       "index": 3,
+       "time": 153.25,
+       "time_text": "02:33.2",
+       "scene": 19
+      },
+      {
+       "index": 4,
+       "time": 153.75,
+       "time_text": "02:33.8",
+       "scene": 19
+      },
+      {
+       "index": 5,
+       "time": 154.25,
+       "time_text": "02:34.2",
+       "scene": 19
+      },
+      {
+       "index": 6,
+       "time": 154.75,
+       "time_text": "02:34.8",
+       "scene": 19
+      },
+      {
+       "index": 7,
+       "time": 155.25,
+       "time_text": "02:35.2",
+       "scene": 19
+      },
+      {
+       "index": 8,
+       "time": 155.75,
+       "time_text": "02:35.8",
+       "scene": 19
+      },
+      {
+       "index": 9,
+       "time": 156.25,
+       "time_text": "02:36.2",
+       "scene": 19
+      },
+      {
+       "index": 10,
+       "time": 156.75,
+       "time_text": "02:36.8",
+       "scene": 19
+      },
+      {
+       "index": 11,
+       "time": 157.25,
+       "time_text": "02:37.2",
+       "scene": 19
+      },
+      {
+       "index": 12,
+       "time": 157.75,
+       "time_text": "02:37.8",
+       "scene": 19
+      },
+      {
+       "index": 13,
+       "time": 158.25,
+       "time_text": "02:38.2",
+       "scene": 19
+      },
+      {
+       "index": 14,
+       "time": 158.75,
+       "time_text": "02:38.8",
+       "scene": 19
+      },
+      {
+       "index": 15,
+       "time": 159.25,
+       "time_text": "02:39.2",
+       "scene": 19
+      },
+      {
+       "index": 16,
+       "time": 159.75,
+       "time_text": "02:39.8",
+       "scene": 19
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 160.0,
+   "end": 166.0,
+   "reason": "dôležitý detail",
+   "suggested_fps": 2,
+   "what_to_find": "koniec v byte, čierna, nápis?",
+   "actual_fps": 2.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail11_01.jpg",
+     "header": "detail11 1: 02:40.2 – 02:45.8  (12 snímok, 2.0 fps, dôležitý detail)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 160.25,
+       "time_text": "02:40.2",
+       "scene": 19
+      },
+      {
+       "index": 2,
+       "time": 160.75,
+       "time_text": "02:40.8",
+       "scene": 19
+      },
+      {
+       "index": 3,
+       "time": 161.25,
+       "time_text": "02:41.2",
+       "scene": 20
+      },
+      {
+       "index": 4,
+       "time": 161.75,
+       "time_text": "02:41.8",
+       "scene": 20
+      },
+      {
+       "index": 5,
+       "time": 162.25,
+       "time_text": "02:42.2",
+       "scene": 20
+      },
+      {
+       "index": 6,
+       "time": 162.75,
+       "time_text": "02:42.8",
+       "scene": 21
+      },
+      {
+       "index": 7,
+       "time": 163.25,
+       "time_text": "02:43.2",
+       "scene": 21
+      },
+      {
+       "index": 8,
+       "time": 163.75,
+       "time_text": "02:43.8",
+       "scene": 21
+      },
+      {
+       "index": 9,
+       "time": 164.25,
+       "time_text": "02:44.2",
+       "scene": 22
+      },
+      {
+       "index": 10,
+       "time": 164.75,
+       "time_text": "02:44.8",
+       "scene": 22
+      },
+      {
+       "index": 11,
+       "time": 165.25,
+       "time_text": "02:45.2",
+       "scene": 22
+      },
+      {
+       "index": 12,
+       "time": 165.75,
+       "time_text": "02:45.8",
+       "scene": 22
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 59.0,
+   "end": 78.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 1,
+   "what_to_find": "2. kolo – líši sa od 1. kola (byt, nemocnica, terasa, kostol)?",
+   "actual_fps": 1.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail12_01.jpg",
+     "header": "detail12 1: 00:59.5 – 01:14.5  (16 snímok, 1.0 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 59.5,
+       "time_text": "00:59.5",
+       "scene": 7
+      },
+      {
+       "index": 2,
+       "time": 60.5,
+       "time_text": "01:00.5",
+       "scene": 7
+      },
+      {
+       "index": 3,
+       "time": 61.5,
+       "time_text": "01:01.5",
+       "scene": 8
+      },
+      {
+       "index": 4,
+       "time": 62.5,
+       "time_text": "01:02.5",
+       "scene": 8
+      },
+      {
+       "index": 5,
+       "time": 63.5,
+       "time_text": "01:03.5",
+       "scene": 8
+      },
+      {
+       "index": 6,
+       "time": 64.5,
+       "time_text": "01:04.5",
+       "scene": 8
+      },
+      {
+       "index": 7,
+       "time": 65.5,
+       "time_text": "01:05.5",
+       "scene": 8
+      },
+      {
+       "index": 8,
+       "time": 66.5,
+       "time_text": "01:06.5",
+       "scene": 8
+      },
+      {
+       "index": 9,
+       "time": 67.5,
+       "time_text": "01:07.5",
+       "scene": 8
+      },
+      {
+       "index": 10,
+       "time": 68.5,
+       "time_text": "01:08.5",
+       "scene": 8
+      },
+      {
+       "index": 11,
+       "time": 69.5,
+       "time_text": "01:09.5",
+       "scene": 8
+      },
+      {
+       "index": 12,
+       "time": 70.5,
+       "time_text": "01:10.5",
+       "scene": 8
+      },
+      {
+       "index": 13,
+       "time": 71.5,
+       "time_text": "01:11.5",
+       "scene": 8
+      },
+      {
+       "index": 14,
+       "time": 72.5,
+       "time_text": "01:12.5",
+       "scene": 9
+      },
+      {
+       "index": 15,
+       "time": 73.5,
+       "time_text": "01:13.5",
+       "scene": 9
+      },
+      {
+       "index": 16,
+       "time": 74.5,
+       "time_text": "01:14.5",
+       "scene": 9
+      }
+     ]
+    },
+    {
+     "grid": 2,
+     "file": "grids/detail12_02.jpg",
+     "header": "detail12 2: 01:15.5 – 01:17.5  (3 snímok, 1.0 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 75.5,
+       "time_text": "01:15.5",
+       "scene": 9
+      },
+      {
+       "index": 2,
+       "time": 76.5,
+       "time_text": "01:16.5",
+       "scene": 9
+      },
+      {
+       "index": 3,
+       "time": 77.5,
+       "time_text": "01:17.5",
+       "scene": 9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 78.0,
+   "end": 97.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 1,
+   "what_to_find": "2. kolo – cintorín, park, kaviareň: rozdiely oproti 1. kolu?",
+   "actual_fps": 1.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail13_01.jpg",
+     "header": "detail13 1: 01:18.5 – 01:33.5  (16 snímok, 1.0 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 78.5,
+       "time_text": "01:18.5",
+       "scene": 10
+      },
+      {
+       "index": 2,
+       "time": 79.5,
+       "time_text": "01:19.5",
+       "scene": 10
+      },
+      {
+       "index": 3,
+       "time": 80.5,
+       "time_text": "01:20.5",
+       "scene": 10
+      },
+      {
+       "index": 4,
+       "time": 81.5,
+       "time_text": "01:21.5",
+       "scene": 10
+      },
+      {
+       "index": 5,
+       "time": 82.5,
+       "time_text": "01:22.5",
+       "scene": 10
+      },
+      {
+       "index": 6,
+       "time": 83.5,
+       "time_text": "01:23.5",
+       "scene": 10
+      },
+      {
+       "index": 7,
+       "time": 84.5,
+       "time_text": "01:24.5",
+       "scene": 10
+      },
+      {
+       "index": 8,
+       "time": 85.5,
+       "time_text": "01:25.5",
+       "scene": 10
+      },
+      {
+       "index": 9,
+       "time": 86.5,
+       "time_text": "01:26.5",
+       "scene": 10
+      },
+      {
+       "index": 10,
+       "time": 87.5,
+       "time_text": "01:27.5",
+       "scene": 10
+      },
+      {
+       "index": 11,
+       "time": 88.5,
+       "time_text": "01:28.5",
+       "scene": 11
+      },
+      {
+       "index": 12,
+       "time": 89.5,
+       "time_text": "01:29.5",
+       "scene": 11
+      },
+      {
+       "index": 13,
+       "time": 90.5,
+       "time_text": "01:30.5",
+       "scene": 11
+      },
+      {
+       "index": 14,
+       "time": 91.5,
+       "time_text": "01:31.5",
+       "scene": 11
+      },
+      {
+       "index": 15,
+       "time": 92.5,
+       "time_text": "01:32.5",
+       "scene": 11
+      },
+      {
+       "index": 16,
+       "time": 93.5,
+       "time_text": "01:33.5",
+       "scene": 11
+      }
+     ]
+    },
+    {
+     "grid": 2,
+     "file": "grids/detail13_02.jpg",
+     "header": "detail13 2: 01:34.5 – 01:36.5  (3 snímok, 1.0 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 94.5,
+       "time_text": "01:34.5",
+       "scene": 11
+      },
+      {
+       "index": 2,
+       "time": 95.5,
+       "time_text": "01:35.5",
+       "scene": 12
+      },
+      {
+       "index": 3,
+       "time": 96.5,
+       "time_text": "01:36.5",
+       "scene": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 109.0,
+   "end": 131.0,
+   "reason": "nejasná akcia",
+   "suggested_fps": 1,
+   "what_to_find": "3. kolo – byt, nemocnica, terasa, kostol: rozdiely?",
+   "actual_fps": 1.0,
+   "grids": [
+    {
+     "grid": 1,
+     "file": "grids/detail14_01.jpg",
+     "header": "detail14 1: 01:49.5 – 02:04.5  (16 snímok, 1.0 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 109.5,
+       "time_text": "01:49.5",
+       "scene": 13
+      },
+      {
+       "index": 2,
+       "time": 110.5,
+       "time_text": "01:50.5",
+       "scene": 13
+      },
+      {
+       "index": 3,
+       "time": 111.5,
+       "time_text": "01:51.5",
+       "scene": 14
+      },
+      {
+       "index": 4,
+       "time": 112.5,
+       "time_text": "01:52.5",
+       "scene": 14
+      },
+      {
+       "index": 5,
+       "time": 113.5,
+       "time_text": "01:53.5",
+       "scene": 14
+      },
+      {
+       "index": 6,
+       "time": 114.5,
+       "time_text": "01:54.5",
+       "scene": 14
+      },
+      {
+       "index": 7,
+       "time": 115.5,
+       "time_text": "01:55.5",
+       "scene": 14
+      },
+      {
+       "index": 8,
+       "time": 116.5,
+       "time_text": "01:56.5",
+       "scene": 14
+      },
+      {
+       "index": 9,
+       "time": 117.5,
+       "time_text": "01:57.5",
+       "scene": 14
+      },
+      {
+       "index": 10,
+       "time": 118.5,
+       "time_text": "01:58.5",
+       "scene": 14
+      },
+      {
+       "index": 11,
+       "time": 119.5,
+       "time_text": "01:59.5",
+       "scene": 14
+      },
+      {
+       "index": 12,
+       "time": 120.5,
+       "time_text": "02:00.5",
+       "scene": 14
+      },
+      {
+       "index": 13,
+       "time": 121.5,
+       "time_text": "02:01.5",
+       "scene": 14
+      },
+      {
+       "index": 14,
+       "time": 122.5,
+       "time_text": "02:02.5",
+       "scene": 15
+      },
+      {
+       "index": 15,
+       "time": 123.5,
+       "time_text": "02:03.5",
+       "scene": 15
+      },
+      {
+       "index": 16,
+       "time": 124.5,
+       "time_text": "02:04.5",
+       "scene": 15
+      }
+     ]
+    },
+    {
+     "grid": 2,
+     "file": "grids/detail14_02.jpg",
+     "header": "detail14 2: 02:05.5 – 02:10.5  (6 snímok, 1.0 fps, nejasná akcia)",
+     "cells": [
+      {
+       "index": 1,
+       "time": 125.5,
+       "time_text": "02:05.5",
+       "scene": 15
+      },
+      {
+       "index": 2,
+       "time": 126.5,
+       "time_text": "02:06.5",
+       "scene": 15
+      },
+      {
+       "index": 3,
+       "time": 127.5,
+       "time_text": "02:07.5",
+       "scene": 15
+      },
+      {
+       "index": 4,
+       "time": 128.5,
+       "time_text": "02:08.5",
+       "scene": 15
+      },
+      {
+       "index": 5,
+       "time": 129.5,
+       "time_text": "02:09.5",
+       "scene": 16
+      },
+      {
+       "index": 6,
+       "time": 130.5,
+       "time_text": "02:10.5",
+       "scene": 16
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "language": "sk"
+}
